@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Art Historian + Wine = Coding?"
+title:  "Art History + Wine = Coding?"
 date:   2017-05-04 15:25:58 -0400
 ---
 
