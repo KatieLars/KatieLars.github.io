@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Art Historian + Wine = Coding?"
-date:   2017-05-04 19:25:58 +0000
+date:   2017-05-04 15:25:58 -0400
 ---
 
 
