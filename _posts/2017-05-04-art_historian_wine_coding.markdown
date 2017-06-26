@@ -27,7 +27,7 @@ To say that the world is moving faster than ever before is an understatement. An
 
 And at the end of the day, I can't say that I actually accomplished anything that seemed to have an impact on either me or my field. I can't point to any monetary impact I had on sales or efficiency; I can't point to how many people I trained or projects I lead; I can't point to any results for anything. Sure, I've taught several college-level art classes, have extensively cataloged Japanese Ukiyo-e prints, have published articles in 2 edited volumes, and spoken at several conferences. Most of these accomplishments, however, are not translatable outside academia. 
 
-![Imgur](http://i.imgur.com/kFdFUiW.jpg)
+<a href="http://imgur.com/kFdFUiW"><img src="http://i.imgur.com/kFdFUiW.jpg" title="source: imgur.com" /></a>
 
 Exhasperated, but still holding on to finishing that degree, I took a job at a wine retail store. I love wine. It's simultaneously the most wonderful thing I've ever put in my mouth and the grossest thing I've ever put in mouth (yes, it beats out the time I accidentally swallowed a fly or got bits of a wool sweater between my teeth--I didn't expect those things to be delicious; I expect wine to taste good, so when it doesn't, the disgust is laced with disappointment, which makes it infinitely worse than flies or wool). 
 
