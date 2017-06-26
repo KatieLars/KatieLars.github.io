@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Useful Links from an Arid Book"
-date:   2017-06-26 23:03:47 +0000
+date:   2017-06-26 19:03:48 -0400
 ---
 
 
@@ -15,7 +15,7 @@ But like I said, Duckett's work was useful. In retrospect, I think I wouldn't re
 
 **BBedit**: a HTML and text editor for Mac OSX users that looks like it has some wonderful tools for text control
 
-[https://www.barebones.com/products/bbedit/]
+[https://www.barebones.com/products/bbedit/](http://)
 
 **Pixlr**: an online photo editor with free fonts and graphics, as well as a mobile version
 
