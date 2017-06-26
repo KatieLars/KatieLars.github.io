@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Alternative Facts & Booleans"
-date:   2017-05-09 05:15:43 +0000
+date:   2017-05-09 01:15:44 -0400
 ---
 
 
