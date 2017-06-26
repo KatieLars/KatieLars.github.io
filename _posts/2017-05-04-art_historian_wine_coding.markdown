@@ -27,7 +27,7 @@ To say that the world is moving faster than ever before is an understatement. An
 
 And at the end of the day, I can't say that I actually accomplished anything that seemed to have an impact on either me or my field. I can't point to any monetary impact I had on sales or efficiency; I can't point to how many people I trained or projects I lead; I can't point to any results for anything. Sure, I've taught several college-level art classes, have extensively cataloged Japanese Ukiyo-e prints, have published articles in 2 edited volumes, and spoken at several conferences. Most of these accomplishments, however, are not translatable outside academia. 
 
-<a href="http://imgur.com/kFdFUiW"><img src="http://i.imgur.com/kFdFUiW.jpg" title="source: imgur.com" /></a>
+![](http://i.imgur.com/kFdFUiW.jpg)
 
 Exhasperated, but still holding on to finishing that degree, I took a job at a wine retail store. I love wine. It's simultaneously the most wonderful thing I've ever put in my mouth and the grossest thing I've ever put in mouth (yes, it beats out the time I accidentally swallowed a fly or got bits of a wool sweater between my teeth--I didn't expect those things to be delicious; I expect wine to taste good, so when it doesn't, the disgust is laced with disappointment, which makes it infinitely worse than flies or wool). 
 
@@ -48,7 +48,7 @@ And a load was taken off me. I physically felt lighter. My attitude and health i
 
 Here's where the coding comes in. Now I had dabbled in code at Codeacademy and had looked at the idea of making an art history app about a year earlier to my enrollment at Flatiron. It was appealing, the idea of actually building something in the world that people could use. But I had always thought of it as something I could do after I got the PhD. A sort of sideline. After all, that was not how things were done for art historians. The entry requirement was the PhD. You had to get it. Digital humanities would come after.
 
-![](<a href="http://imgur.com/XHc5O2z"><img src="http://i.imgur.com/XHc5O2z.jpg" title="source: imgur.com" /></a>)
+![](http://i.imgur.com/XHc5O2z.jpg)
 
 By the time December had rolled around and the decisions had been made. I was unemployed and, to outsiders, aimless. It felt (and still feels) as if any time spent outside of employment or education is necessarily wasted. America is all about doing and producing. What are you doing right now? What are you working on? You will be able to produce, right? Those are frequently the deciders of individual worth or value, which is why being a stay-at-home parent or elderly person is, I think, a tough position. Kids get a pass. They aren't ready to produce yet, but eventually they will. 
 
@@ -69,8 +69,6 @@ When I found out what it was, I remembered my brief Codeacademy interest, and I 
 What was more important, though, was the relief and comraderie that seemed to occupy every step of the journey. Here were people I could ask for help. Sometimes they were experts, and sometimes they were learners like me. But it was a team effort to help each other. There really isn't that sort of set up in art history or wine. Wine tasting groups can be cliquish, and my experiences with art historians were either peer-reviewed stuff that took 4 years to get through or informal problems of wording or editing. But in code, you could reach out to folks, and THEY WOULD RESPOND! Amazing!
 
 And the failing! I loved the failing. You're tests didn't pass. AND NOTHING HAPPENED. It was great. If I were to fail something in art history (which was getting a B), it would be tramautic. There would be tears. You'd have to go see the Director of Graduate Studies. You'd have to go see your advisor. You'd basically have to question whether or not you had the passion or the commitment or the chops to continue. In wine, if you failed your somm test, you'd be out about $1600 and have to repay to take it. Not that big of a deal, but when you make less that $15/hour, it can be a huge setback.
-
-![](https://img.memesuper.com/3aeb3a085b315feffeb72f8ce11ef0a2_you-failed-the-test-a-meme-exam-fail_625-468.jpeg)
 
 But what sold me on coding was the endless hope for change. This is a skill to change the world. Coding, like any language, changes the way you think, how you think, what thoughts you're even capable of thinking. If academia was brutally slow to change, and wine was the refuge for the passionate, coding thrived off of change and welcomed all passions. I still love art, and I still love wine, but it's time for my relationship with them to change (particularly art). And I hope to change others' relationships with art and wine as well.
 
