@@ -7,7 +7,7 @@ date:   2017-05-04 15:25:58 -0400
 
 My presence here is . . . unusual. At least for people who are not me. I just got off an exhausting 10-year project working to become a museum curator and a crushing 2-year stint in wine retail. For the majority of the folks I know (including my very own folks), coding came out of left field. I remember my mom saying "Medical coding?" when I told her what I wanted to do.
 
-![](http://imgur.com/L843jER)
+![](http://i.imgur.com/L843jER.jpg)
 
 If you're me, though, my presence here is not at all unusual. Here's a caveat before I continue: Now I am extremely lucky. I have a warm home, food, can pay my bills, and have a wonderful support system. I'm also a white, educated female living in a safe area of a large American city. I am heterosexual and have a gender identity that corresponds to my sex. I come from a middle class background and have lived abroad. I have health insurance and am healthy. I am priveleged in the extreme. This is not the inspiring story of how I overcame all the odds and became a role model. This is a recounting of frustrations with systems and modes of thought I found limiting (and if I found them limiting, I cannot imagine what they would be like for others who are less privileged than me). And, I assure you, it is how I came to code.
 
