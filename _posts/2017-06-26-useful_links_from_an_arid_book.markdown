@@ -15,7 +15,7 @@ But like I said, Duckett's work was useful. In retrospect, I think I wouldn't re
 
 **BBedit**: a HTML and text editor for Mac OSX users that looks like it has some wonderful tools for text control
 
-[https://www.barebones.com/products/bbedit/](http://)
+[https://www.barebones.com/products/bbedit/](https://www.barebones.com/products/bbedit/)
 
 **Pixlr**: an online photo editor with free fonts and graphics, as well as a mobile version
 
