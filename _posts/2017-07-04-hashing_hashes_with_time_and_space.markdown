@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hashing Hashes with Time & Space"
-date:   2017-07-04 01:06:34 +0000
+date:   2017-07-03 21:06:34 -0400
 ---
 
 ![Hash Browns](http://i.imgur.com/0FWkzpm.jpg)
@@ -19,7 +19,7 @@ Put visually, sometimes this:
 
 is better than this:
 
-![swarm of bees](http://i.imgur.com/RsJuAQg.gifv)
+![swarm of bees](https://media.giphy.com/media/Z1zd9yQlbkaCQ/giphy.gif)
 
 See the problem I found with hashes was trying to set values equal to any one constant key/value pair. In other words, I needed an initial value equal to the first key/value set that appears in the hash (of course, chosing the first pair is completely random since pairs don't have a strict order within a hash). If the data set were an array, I would simply says array_name[0] to access the data at that unique location. But location (i.e. order) is not the unique part of a hash; keys are. 
 
@@ -29,7 +29,7 @@ So when I was confronted with the challenge of comparing integer values in a has
 
 Here's an actual image of me, trying to figure this out:
 
-![man fighting swarm](http://i.imgur.com/ov4N38O.gifv)
+![man fighting swarm](https://media.giphy.com/media/A1SNSC8s40O64/giphy.gif)
 
 Turns out, I was thinking about location in the wrong way, or rather, not in a useful way. I did have to do a screen share with Flatiron pro Matt Cassara to figure this out, so credit is his on this one. I'm just pleased I understood what was happening.
 
@@ -49,13 +49,13 @@ So at the first iteration (0), two variable (lowest_key and lowest_value) are se
 
 Now, I'm like
 
-![Oprah loves bees](http://i.imgur.com/Z8mZueR.gifv)
+![Oprah loves bees](https://media.giphy.com/media/VhFps32TlNgsg/giphy.gif)
 
 Of course, all of this would've been moot had I just been allowed to use #min . . . But wasn't it so much more fun to work in the space/time continuum of iterations??? 
 
 **WASN'T IT?? WASN'T IT??**
 
-![SNL Kristen Wiig](http://i.imgur.com/5r6GsqT.gifv)
+![SNL Kristen Wiig](https://media.giphy.com/media/l2JhAmuESLx73WWbK/giphy.gif)
 
 
 
