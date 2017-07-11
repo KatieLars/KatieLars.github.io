@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Useful Links from an Arid Book"
+title:  "An Oasis in the Desert, or, Useful Links from an Arid Book"
 date:   2017-06-26 19:03:48 -0400
 ---
 
