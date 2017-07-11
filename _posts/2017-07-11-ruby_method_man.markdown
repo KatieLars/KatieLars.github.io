@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby: Method (Man)"
-date:   2017-07-11 03:41:48 +0000
+date:   2017-07-10 23:41:49 -0400
 ---
 
 
