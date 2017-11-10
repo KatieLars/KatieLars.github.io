@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "The Collaborating Weeds"
-date:   2017-07-18 02:25:54 +0000
+title:      "The Collaborating Weeds"
+date:       2017-07-17 22:25:54 -0400
+permalink:  the_collaborating_weeds
 ---
 
 
