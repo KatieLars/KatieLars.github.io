@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "The Struggle of Gem Mining"
-date:   2017-09-11 20:12:04 +0000
+title:      "The Struggle of Gem Mining"
+date:       2017-09-11 16:12:05 -0400
+permalink:  the_struggle_of_gem_mining
 ---
 
 
