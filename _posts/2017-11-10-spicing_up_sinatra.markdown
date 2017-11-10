@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Spicing up Sinatra"
-date:       2017-11-10 22:26:09 +0000
+date:       2017-11-10 17:26:10 -0500
 permalink:  spicing_up_sinatra
 ---
 
