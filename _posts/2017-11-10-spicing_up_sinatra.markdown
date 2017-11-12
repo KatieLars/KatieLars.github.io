@@ -32,7 +32,7 @@ Now a you can see, you can also add a new recipe or choose from pre-existing rec
 
 It drove me crazy.
 
-![Gordon Ramsay](https://i.imgur.com/oqMCyRp.gif)
+![Gordon Ramsay](https://imgur.com/oqMCyRp)
 
 So my `post '/spices/new'` ended up being HUGE. I mean, I methodically went through and wrote out a conditional for each and every possible scenario: is the user the current user, are the spice params empty, are the recipe params empty, do the spice params have a recipe id associated with them, and so on and so forth. It's big.It's messy. BUT IT WORKS.
 
