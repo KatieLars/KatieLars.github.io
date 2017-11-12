@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Hashing Hashes with Time & Space"
-date:   2017-07-03 21:06:34 -0400
+title:      "Hashing Hashes with Time & Space"
+date:       2017-07-03 21:06:34 -0400
+permalink:  hashing_hashes_with_time_and_space
 ---
 
 ![Hash Browns](http://i.imgur.com/0FWkzpm.jpg)
