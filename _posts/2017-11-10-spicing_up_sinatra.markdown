@@ -12,7 +12,7 @@ I dont' believe in CRUD, except when I'm in the kitchen!
 
 Not really going to work at all. But I do always try to think of my apps as answers to real world problems. My CLI gem was a test run at getting updates (and in my dreams, push notification) of museum exhibition and event information. This Sinatra app is designed to keep track of spices and the recipes they belong to. Now in my mind, I have a beautiful app that links to variety of other cooking apps and blogs; includes herbs; has ping notifications when spices expire or when you put a recipe on your menu and don't have one of the spices on the list, etc.) For the moment I got none of that. It doesn't even look that great. But it works!
 
-![It's alive](https://i.imgur.com/WtiCyLW.gifv)
+![It's alive](https://i.imgur.com/WtiCyLW.gif)
 
 It signs you up, logs you in, adds spices(and/or recipes), edits spices(and/or recipes), deletes spices (and/or . . . you get it), and links spices with recipes. Basic CRUD stuff. 
 
