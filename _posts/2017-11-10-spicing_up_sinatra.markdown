@@ -52,7 +52,7 @@ Once finished, my final, finishing touch was installation or deployment. Now I'v
 
 Man. I uninstalled the Postgres app, reinstalled the Postgres app, created 6 or 7 Heroku apps, and deleted all but one. My app would fail to load, and the logs would tell me nothing I could understand. I ended up in a Stack Overflow wormhole regarding Unix Sockets and the whole time all I could think was a) what the hell?; and b) 
 
-![It's a Unix System](https://i.imgur.com/7P0iTIW.gif)
+![It's a Unix System](http://kepford.github.io/cracking-the-shell/assets/unix-system.gif)
 
 So after about 7 hours of pure frustration punctuated by moments of astonishment as some little part worked then failed, I decided last night to go back to sqlite3. I finished retooling my app for sqlite3 and was preparingt to begin this little post when I found a fortuitous Slack thread. Turns out there were at least 2 other folks attempting to do this on Slack, and were running into the same issues. Some more advanced students jumped in the thread, and presto! resources! 
 
