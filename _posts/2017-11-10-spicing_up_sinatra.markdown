@@ -62,7 +62,7 @@ I did.
 
 It cracked. I may have too. 
 
-![cracked](https://i.imgur.com/7P0iTIW.gif)
+![cracked](https://media.giphy.com/media/eLQPdSfP4IlPi/giphy.gif)
 
 
 HUGE should out to Flatiron student Luke Kisabeth for the step by steps (check it out [here](http://lucaskisabeth.com/2017/06/24/deploying_your_sqlite3_sinatra_app_to_heroku_using_postgresql/)) and all the folks on the great online dev Slack channel!
