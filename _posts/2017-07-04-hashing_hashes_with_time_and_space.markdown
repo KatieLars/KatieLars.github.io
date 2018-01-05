@@ -10,7 +10,7 @@ permalink:  hashing_hashes_with_time_and_space
 
 Because no one has made that joke before.
 
-But beyond the dance of the salt pork fairies their title evokes, hashes, it turns out, are a great way to store information. They're intuitive: you have a keyword conceptually related to a value; they are good at handling unique information: keywords are one-of-a-kind to access particular information; and, as key/value pairs inhabit no particular location inside the hash, they are more fluid than arrays at organizing information. The information contained in hashes isn't nailed down.
+But beyond the dance of the salt pork fairies, hashes, it turns out, are a great way to store information. They're intuitive: you have a keyword conceptually related to a value; they are good at handling unique information: keywords are one-of-a-kind to access particular information; and, as key/value pairs inhabit no particular location inside the hash, they are more fluid than arrays at organizing information. The information contained in hashes isn't nailed down.
 
 Problem is, there are times when I need things nailed down.
 
@@ -22,7 +22,7 @@ is better than this:
 
 ![swarm of bees](https://media.giphy.com/media/Z1zd9yQlbkaCQ/giphy.gif)
 
-See the problem I found with hashes was trying to set values equal to any one constant key/value pair. In other words, I needed an initial value equal to the first key/value set that appears in the hash (of course, chosing the first pair is completely random since pairs don't have a strict order within a hash). If the data set were an array, I would simply says array_name[0] to access the data at that unique location. But location (i.e. order) is not the unique part of a hash; keys are. 
+See the problem I found with hashes was trying to set values equal to any one constant key/value pair. In other words, I needed an initial value equal to the first key/value set that appears in the hash (of course, chosing the first pair is completely random since pairs don't have a strict order within a hash). If the data set were an array, I would simply say array_name[0] to access the data at that unique location. But location (i.e. order) is not the unique part of a hash; keys are. 
 
 ![Cinderella Gus trying to get key](http://i.imgur.com/H3oXwA9.jpg)
 
@@ -46,7 +46,7 @@ So to set my initial values for comparison, to pin them down, I (with Matt's hel
     end
 ```
 
-So at the first iteration (0), two variable (lowest_key and lowest_value) are set to that iteration's corresponding key/value pair (in this case, the key/value pair that appears first in the hash). 
+So at the first iteration (0), two variables (lowest_key and lowest_value) are set to that iteration's corresponding key/value pair (in this case, the key/value pair that appears first in the hash). 
 
 Now, I'm like
 
