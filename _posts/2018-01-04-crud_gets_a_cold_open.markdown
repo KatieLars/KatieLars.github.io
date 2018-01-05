@@ -54,7 +54,7 @@ A couple of things that unabashedly helped:
 
 **The Leftovers**
 
-![Leftovers[](https://imgur.com/w7cDHL2)
+![Leftovers](https://imgur.com/w7cDHL2)
 
 What's left is basic deployment and CSS. I'd like to say I have a wonderful Heroku app link like I did for my Sinatra app, but alas, I do not (I have to figure out how to not give the world my Facebook Secret and AppID but still use Heroku Git Hub for the repo). So that's left to do. Oh goody. 
 
