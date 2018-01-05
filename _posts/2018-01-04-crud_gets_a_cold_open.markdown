@@ -14,7 +14,7 @@ So for my Sinatra project it was spices; this time it's freezers (ultimately I w
 
 Cold Open is designed to prevent the mystery beige tupperwares at the back of the freezer, or the glacer of ice on top of that T-bone by letting users know when they're stuff is expiring and what they actually have in there. I mean, you never want to open up your freezer to the prospect of this:
 
-![Zuul](https://imgur.com/h2luNq8)
+![Zuul](https://i.imgur.com/h2luNq8.png)
 
 Plus it saves money, food, and flavor! ;)
 
@@ -24,13 +24,13 @@ Everything fell into place for me this time around: the models seemed clearly re
 
 Honestly, Rails was the magic everyone promised. 
 
-![I love magic](https://imgur.com/pHAzPNG)
+![I love magic](https://i.imgur.com/pHAzPNG.gif)
 
 I used generators to get my models and migrations set up; the console to dive into my database (a frequent frustration with Sinatra); wonderful query methods and custome helpers to help out views; and some great gems to help me wtih authentication. Routes, actions, views, partials, skinny controllers--it all clicked in a way that made Sinatra seem like such a struggle. I get it now. 
 
 I feel the love for Rails.
 
-![Can you feel the love?](https://imgur.com/UQ5HEty)
+![Can you feel the love?](https://i.imgur.com/UQ5HEty.jpg)
 
 **Sometimes when you move, the world moves with you**
 
@@ -46,7 +46,7 @@ A couple of things that unabashedly helped:
 
 * **Separation of Concerns** I actively tried to incorporate principles into the act of coding, such as DRY and Demeter, but the one that aided me the most was the Separation of Concerns. I tried to ask myself every step of the way, what I was doing and what should be responsible for doing it. As good ol' Marky Aurelius wrote in Book Eleven, "***Consider whence each thing is come, and of what it consists, and into what it changes, and what kind of a thing it will be when it has changed, and that it will sustain no harm."*** Indeed.
 
-![Marcus Aurelius](https://imgur.com/xPcRi1D)
+![Marcus Aurelius](https://i.imgur.com/xPcRi1D.jpg)
 
 * **Prior knowledge** I can't quite put my finger on it, but by building up to Rails through SQL, ActiveRecord, Sinatra, Ruby and the like, made Rails' magic less mindboggling. It was simply the next logical step (although Devise--another, perhaps, logical step--is not my friend). It's like how Chicago is the Second City: a chunk of it burned down, and now, secretly, all the ritzy apartment buildings between Michigan Avenue and the lake are just built on top ashes.
 
@@ -54,7 +54,7 @@ A couple of things that unabashedly helped:
 
 **The Leftovers**
 
-![Leftovers](https://imgur.com/w7cDHL2)
+![Leftovers](https://i.imgur.com/w7cDHL2.jpg)
 
 What's left is basic deployment and CSS. I'd like to say I have a wonderful Heroku app link like I did for my Sinatra app, but alas, I do not (I have to figure out how to not give the world my Facebook Secret and AppID but still use Heroku Git Hub for the repo). So that's left to do. Oh goody. 
 
@@ -62,7 +62,7 @@ And then there is the front-end. I do not particularly care for CSS. It brings b
 
 Javascript is up next. The party in the back I guess has to be followed by the business in the front.
 
-![Mullet](https://imgur.com/zm6ZTXv)
+![Mullet](https://i.imgur.com/zm6ZTXv.jpg)
 
 
 
