@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Alternative Facts & Booleans"
-date:   2017-05-09 01:15:44 -0400
+title:      "Alternative Facts & Booleans"
+date:       2017-05-09 01:15:44 -0400
+permalink:  alternative_facts_and_booleans
 ---
 
 
@@ -19,8 +20,5 @@ It was that very simplicity that burned when those test didn't pass. How could I
 
 ![](https://media.giphy.com/media/15Snc2DpOBOzC/giphy.gif)
 
-So I'm putting booleans on ice for the moment, and letting the desire for falsity sink in during the night. Maybe I'll listen to the dulcet shrieking of President Trump to truly channel that cannily creative impulse for untruths. 
+So I'm putting booleans on ice for the moment, and letting the desire for falsity sink in during the night. I hear the truth is under attack anyway . . .
 
-![](https://media.giphy.com/media/l3q2UmwvoLlbbuT8k/giphy.gif)
-
-Or not.
