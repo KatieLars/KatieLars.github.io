@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CRUD Gets a Cold Open"
-date:       2018-01-05 01:35:57 +0000
+date:       2018-01-04 20:35:58 -0500
 permalink:  crud_gets_a_cold_open
 ---
 
