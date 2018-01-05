@@ -10,7 +10,7 @@ I dont' believe in CRUD, except when I'm in the kitchen!
 
 ![Nope](https://i.imgur.com/Qh21yee.jpg)
 
-Not really going to work at all. But I do always try to think of my apps as answers to real world problems. My CLI gem was a test run at getting updates (and in my dreams, push notification) of museum exhibition and event information. This Sinatra app is designed to keep track of spices and the recipes they belong to. Now in my mind, I have a beautiful app that links to variety of other cooking apps and blogs; includes herbs; has ping notifications when spices expire or when you put a recipe on your menu and don't have one of the spices on the list, etc.) For the moment I got none of that. It doesn't even look that great. But it works!
+But I do always try to think of my apps as answers to real world problems. My CLI gem was a test run at getting updates (and in my dreams, push notification) of museum exhibition and event information. This Sinatra app is designed to keep track of spices and the recipes they belong to. Now in my mind, I have a beautiful app that links to variety of other cooking apps and blogs; includes herbs; has ping notifications when spices expire or when you put a recipe on your menu and don't have one of the spices on the list, etc. For the moment I got none of that. It doesn't even look that great on the front end. But it works!
 
 ![It's alive](https://media.giphy.com/media/3oEjI6hkw6nbYNQkz6/giphy.gif)
 
@@ -38,7 +38,7 @@ So my `post '/spices/new'` ended up being HUGE. I mean, I methodically went thro
 
 As I write this, I think there is a way to organize my params a little better and create some helper methods that would rectify this problem. Perhaps if I had created a params organization that was more along the lines of `{spice => {:name => "Curry", :flavor_id => "2", :recipe_ids => [ "2", "3"], :recipe => {:name => "Daal", :url => "daal.com"}}` 
 
-That way if `:recipe` were every blank because the user didn't actually want to create a recipe, the code (in theory) wouldn't break . . . hmmmmm . . . On a more critical note, I didn't feel as if organizing params was every truly discussed. Like, when you have a nested form what are the best practices for how your params should look? In the Nested Forms lesson, the example students/courses/grades was organized much like it was above. But in subsequent lessons, I found that instead of one big hash (in this case a spice hash) there may be another hash corresponding to a new object you created. And this was how I ended up arranging my params `{spice => {:name => "Curry", :flavor_id => "2", :recipe_ids => [ "2", "3"]}, recipe => {:name => "Daal", :url => "daal.com"}}` So now there are two hashes--spice and recipe--that correspond with the new objects the post request will create. And that's how we run into the aforementioned issue of blank params. 
+That way if `:recipe` were every blank because the user didn't actually want to create a recipe, the code (in theory) wouldn't break . . . hmmmmm . . . On a more critical note, I didn't feel as if organizing params was every truly discussed in the coursework. Like, when you have a nested form what are the best practices for how your params should look? In the Nested Forms lesson, the example students/courses/grades was organized much like it was above. But in subsequent lessons, I found that instead of one big hash (in this case a spice hash) there may be another hash corresponding to a new object you created. And this was how I ended up arranging my params `{spice => {:name => "Curry", :flavor_id => "2", :recipe_ids => [ "2", "3"]}, recipe => {:name => "Daal", :url => "daal.com"}}` So now there are two hashes--spice and recipe--that correspond with the new objects the post request will create. And that's how we run into the aforementioned issue of blank params. 
 
 But right now IT WORKS. IT. WORKS.
 
@@ -54,13 +54,13 @@ Man. I uninstalled the Postgres app, reinstalled the Postgres app, created 6 or 
 
 ![It's a Unix System](http://kepford.github.io/cracking-the-shell/assets/unix-system.gif)
 
-So after about 7 hours of pure frustration punctuated by moments of astonishment as some little part worked then failed, I decided last night to go back to sqlite3. I finished retooling my app for sqlite3 and was preparingt to begin this little post when I found a fortuitous Slack thread. Turns out there were at least 2 other folks attempting to do this on Slack, and were running into the same issues. Some more advanced students jumped in the thread, and presto! resources! 
+So after about 7 hours of pure frustration punctuated by moments of astonishment as some little part worked then failed, I decided last night to go back to sqlite3. I finished retooling my app for sqlite3 and was preparing to begin this little post when I found a fortuitous Slack thread. Turns out there were at least 2 other folks attempting to do this on Slack, and were running into the same issues. Some more advanced students jumped in the thread, and presto! resources! 
 
 I decided to give it another crack in the morning. 
 
 I did. 
 
-It cracked. I may have too. 
+It cracked.
 
 ![cracked](https://media.giphy.com/media/eLQPdSfP4IlPi/giphy.gif)
 
