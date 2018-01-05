@@ -30,9 +30,9 @@ Now that's not just a method; it's a mega-method--a macro: code that writes meth
 
 ![Computers inside computers](https://media.giphy.com/media/yAOjunY81Trjy/giphy.gif)
 
-This all makes sense too. Ruby is designed to be intuitive. Object orientation is designed to mimic the real world. And the real world is composed of actions. Think about it. Even when you're simply storing your Method Man records--you're still *storing* them. You're acting on them. Doing something with them. I mean, try to think of a time when you aren't *doing* something. Just try. 
+This all makes sense too. Ruby is designed to be intuitive. Object orientation is designed to mimic the real world. And the real world is composed of actions. Think about it. Even when you're simply storing your Method Man albums--you're still *storing* them. You're acting on them. Doing something with them. I mean, try to think of a time when you aren't *doing* something. Just try. 
  
-I'm willing to wager that you can't. Because by virture of existing, we're doing something. We *are*. So it's perfectly logical that Ruby would be dominated by methods, by actions. We can't not not be. We simply are. Or, in the words of a man of the Wu-Tang Clan,  "I am, the one and only Method Man".
+I'm willing to wager that you can't. Because by virtue of existing, we're doing something. We *are*. So it's perfectly logical that Ruby would be dominated by methods, by actions. We can't not not be. We simply are. Or, in the words of a man of the Wu-Tang Clan,  "I am, the one and only Method Man".
 
 ![Method Man](http://i.imgur.com/nZc0yNG.jpg)
 
