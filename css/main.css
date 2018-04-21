@@ -1872,7 +1872,7 @@
 /* Form */
 
 	form label {
-		display: block;
+		display: inline;
 		font-weight: 400;
 		color: #483949;
 		margin: 0 0 1em 0;
@@ -1884,7 +1884,7 @@
 	form select,
 	form textarea {
 		-webkit-appearance: none;
-		display: block;
+		display: inline-block;
 		border: 0;
 		background: #fafafa;
 		width: 100%;
@@ -1990,7 +1990,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: rgba(151, 57, 0, 100);
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2012,7 +2012,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: rgba(192, 78, 0, 100);
 		}
 
 		input[type="button"].alt,
@@ -3038,5 +3038,11 @@
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
+
+	}
+
+	form > input[type="submit"] {
+		display:block;
+		margin:0 auto;
 
 	}
