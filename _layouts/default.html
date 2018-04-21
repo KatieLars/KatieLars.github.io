@@ -3,14 +3,29 @@
 
 {% include head.html %}
 
-<body>
+  <body class="homepage">
+    <div id="page-wrapper">
+      <!-- Header -->
+        <div id="header">
 
-    {% include nav.html %}
+          <!-- Inner -->
+            <div class="inner">
+              <header>
+                <h1><a href="index.html" id="logo">Katie Larson</a></h1>
+                <hr />
+                <p>Full Stack Web Developer</p>
+              </header>
+            </div>
 
-    {{ content }}
+          <!-- Nav -->
+          {% include nav.html %}
 
-    {% include footer.html %}
+          {{ content }}
 
-</body>
+          {% include footer.html %}
+        </div>
+      </div>
+
+    </body>
 
 </html>
