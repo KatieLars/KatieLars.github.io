@@ -1608,7 +1608,7 @@
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: white;
 	}
 
 	em, i {
@@ -1653,7 +1653,7 @@
 	}
 
 	p {
-		text-align: justify;
+		text-align: center;
 	}
 
 	br.clear {
@@ -2326,7 +2326,7 @@
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: rgba(32, 4, 33, 100);
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
