@@ -1912,6 +1912,7 @@
 	form input[type="email"],
 	form input[type="password"],
 	form select {
+		margin-bottom: 1em;
 		line-height: 1em;
 	}
 
@@ -2204,6 +2205,7 @@
 /* Nav */
 
 	#nav {
+		background: rgba(32, 4, 33, 100);
 		position: absolute;
 		top: 0;
 		left: 0;
