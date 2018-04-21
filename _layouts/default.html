@@ -1,28 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+  {% include head.html %}
 
   <body class="homepage">
     <div id="page-wrapper">
-      <!-- Header -->
-        <div id="header">
-          <!-- Inner -->
-            <div class="inner">
-              <header>
-                <h1><a href="index.html" id="logo">Katie Larson</a></h1>
-                <hr />
-                <p>Full Stack Web Developer</p>
-              </header>
-            </div>
           <!-- Nav -->
           {% include nav.html %}
 
           {{ content }}
 
-        </div>
-      </div>
+    </div>
       {% include footer.html %}
-    </body>
+  </body>
 
 </html>
