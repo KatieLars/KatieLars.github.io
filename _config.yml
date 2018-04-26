@@ -4,9 +4,9 @@ header-img: img/home-bg.png
 email: katmae83@gmail.com
 copyright_name: KatieLars
 description: > # this means to ignore newlines until "baseurl:"
-  Art, Code, and a Couple Glasses of Wine
+  An Art Historian Turns to Code
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username:
+twitter_username: 
 github_username:  KatieLars
 learn_profile: KatieLars
 email_username: katmae83@gmail.com
@@ -14,9 +14,8 @@ email_username: katmae83@gmail.com
 # Build settings
 markdown: kramdown
 highlighter: rouge
-
+permalink: pretty
 paginate: 5
-
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-plugins: [jekyll-paginate, jekyll-feed]
+gems: [jekyll-paginate, jekyll-feed]
