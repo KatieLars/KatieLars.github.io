@@ -6,7 +6,7 @@ permalink:  spicing_up_sinatra
 ---
 
 
-I dont' believe in CRUD, except when I'm in the kitchen! 
+I don't believe in CRUD, except when I'm in the kitchen!
 
 ![Nope](https://i.imgur.com/Qh21yee.jpg)
 
@@ -14,11 +14,11 @@ But I do always try to think of my apps as answers to real world problems. My CL
 
 ![It's alive](https://media.giphy.com/media/3oEjI6hkw6nbYNQkz6/giphy.gif)
 
-It signs you up, logs you in, adds spices(and/or recipes), edits spices(and/or recipes), deletes spices (and/or . . . you get it), and links spices with recipes. Basic CRUD stuff. 
+It signs you up, logs you in, adds spices(and/or recipes), edits spices(and/or recipes), deletes spices (and/or . . . you get it), and links spices with recipes. Basic CRUD stuff.
 
 As with any project, along the way I hit multiple snags. Admittedly, the snags are still not very pretty. But it works. And I like things that work. I'm actually looking forward to doing some refactoring to make them look pretty, because I do feel as though there are perhaps some issues with my understanding of ActiveRecord associations that are not at 100% and a better understanding would make the code a lot more palatable.
 
-So here were the snags: 
+So here were the snags:
 
 ![Snags](https://i.imgur.com/zrbmmdt.jpg)
 
@@ -28,7 +28,7 @@ So you're going to add a spice to your rack. Here's your form:
 
 ![Add spice form](https://i.imgur.com/NrzN8Fx.png)
 
-Now a you can see, you can also add a new recipe or choose from pre-existing recipes, using nested forms. I did have validations in place and flash warnings enacted should you fail to, say, enter a spice name, which is required in my model. But the problem was if any of the params were empty--say, you wanted to simply create a spice but not associate any recipe, new or old, with it. When that happens, the params with user data regarding recipe creation and lookup would be blank. Only thing is, when they were connected back to the post route, they weren't *really* blank. Meaning, if the user did not enter a new recipe or select and old one, ActiveRecord would still create a new recipe with a blank name (in which case my code would break to a validation I had set in the Recipe model) or attempt to update the spice's recipes with . . . .nothing (in which case, my code would break again). 
+Now a you can see, you can also add a new recipe or choose from pre-existing recipes, using nested forms. I did have validations in place and flash warnings enacted should you fail to, say, enter a spice name, which is required in my model. But the problem was if any of the params were empty--say, you wanted to simply create a spice but not associate any recipe, new or old, with it. When that happens, the params with user data regarding recipe creation and lookup would be blank. Only thing is, when they were connected back to the post route, they weren't *really* blank. Meaning, if the user did not enter a new recipe or select and old one, ActiveRecord would still create a new recipe with a blank name (in which case my code would break to a validation I had set in the Recipe model) or attempt to update the spice's recipes with . . . .nothing (in which case, my code would break again).
 
 It drove me crazy.
 
@@ -38,7 +38,7 @@ So my `post '/spices/new'` ended up being HUGE. I mean, I methodically went thro
 
 As I write this, I think there is a way to organize my params a little better and create some helper methods that would rectify this problem. Perhaps if I had created a params organization that was more along the lines of `{spice => {:name => "Curry", :flavor_id => "2", :recipe_ids => [ "2", "3"], :recipe => {:name => "Daal", :url => "daal.com"}}` 
 
-That way if `:recipe` were every blank because the user didn't actually want to create a recipe, the code (in theory) wouldn't break . . . hmmmmm . . . On a more critical note, I didn't feel as if organizing params was every truly discussed in the coursework. Like, when you have a nested form what are the best practices for how your params should look? In the Nested Forms lesson, the example students/courses/grades was organized much like it was above. But in subsequent lessons, I found that instead of one big hash (in this case a spice hash) there may be another hash corresponding to a new object you created. And this was how I ended up arranging my params `{spice => {:name => "Curry", :flavor_id => "2", :recipe_ids => [ "2", "3"]}, recipe => {:name => "Daal", :url => "daal.com"}}` So now there are two hashes--spice and recipe--that correspond with the new objects the post request will create. And that's how we run into the aforementioned issue of blank params. 
+That way if `:recipe` were every blank because the user didn't actually want to create a recipe, the code (in theory) wouldn't break . . . hmmmmm . . . On a more critical note, I didn't feel as if organizing params was every truly discussed in the coursework. Like, when you have a nested form what are the best practices for how your params should look? In the Nested Forms lesson, the example students/courses/grades was organized much like it was above. But in subsequent lessons, I found that instead of one big hash (in this case a spice hash) there may be another hash corresponding to a new object you created. And this was how I ended up arranging my params `{spice => {:name => "Curry", :flavor_id => "2", :recipe_ids => [ "2", "3"]}, recipe => {:name => "Daal", :url => "daal.com"}}` So now there are two hashes--spice and recipe--that correspond with the new objects the post request will create. And that's how we run into the aforementioned issue of blank params.
 
 But right now IT WORKS. IT. WORKS.
 
@@ -50,15 +50,15 @@ Once finished, my final, finishing touch was installation or deployment. Now I'v
 
 ![ostrich fall](https://i.imgur.com/G1Lkbl5.gif)
 
-Man. I uninstalled the Postgres app, reinstalled the Postgres app, created 6 or 7 Heroku apps, and deleted all but one. My app would fail to load, and the logs would tell me nothing I could understand. I ended up in a Stack Overflow wormhole regarding Unix Sockets and the whole time all I could think was a) what the hell?; and b) 
+Man. I uninstalled the Postgres app, reinstalled the Postgres app, created 6 or 7 Heroku apps, and deleted all but one. My app would fail to load, and the logs would tell me nothing I could understand. I ended up in a Stack Overflow wormhole regarding Unix Sockets and the whole time all I could think was a) what the hell?; and b)
 
 ![It's a Unix System](http://kepford.github.io/cracking-the-shell/assets/unix-system.gif)
 
-So after about 7 hours of pure frustration punctuated by moments of astonishment as some little part worked then failed, I decided last night to go back to sqlite3. I finished retooling my app for sqlite3 and was preparing to begin this little post when I found a fortuitous Slack thread. Turns out there were at least 2 other folks attempting to do this on Slack, and were running into the same issues. Some more advanced students jumped in the thread, and presto! resources! 
+So after about 7 hours of pure frustration punctuated by moments of astonishment as some little part worked then failed, I decided last night to go back to sqlite3. I finished retooling my app for sqlite3 and was preparing to begin this little post when I found a fortuitous Slack thread. Turns out there were at least 2 other folks attempting to do this on Slack, and were running into the same issues. Some more advanced students jumped in the thread, and presto! resources!
 
-I decided to give it another crack in the morning. 
+I decided to give it another crack in the morning.
 
-I did. 
+I did.
 
 It cracked.
 
@@ -67,20 +67,8 @@ It cracked.
 
 HUGE should out to Flatiron student Luke Kisabeth for the step by steps (check it out [here](http://lucaskisabeth.com/2017/06/24/deploying_your_sqlite3_sinatra_app_to_heroku_using_postgresql/)) and all the folks on the great online dev Slack channel!
 
-And IT WORKED. 
+And IT WORKED.
 
 ![It worked](https://i.imgur.com/b4CEjns.jpg)
 
 Check it out here: [Spice Rack](https://spice-rack-app.herokuapp.com/)
-
-
-
-
-
-
-
-
-
-
-
-
