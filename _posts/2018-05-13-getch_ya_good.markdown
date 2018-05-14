@@ -41,26 +41,36 @@ INSERT GASP HERE
 
 There was a time when academia wasn't striving towards being impartial (methodological debates aside). Generally speaking, we try at least take in as many viewpoints and go where the evidence leads us rather than funneling evidence to fit a preconceived theory.
 
-Back in the day and outside the political theater, people jumped to conclusions, they puffed up their own theories at the expense of others, they were open (or closested) propagandists, and they just straight up weren't as educated. So their stuff is useful . . . . to a degree.
+Back in the day and outside the political theater, people jumped to conclusions, they puffed up their own theories at the expense of others, they were open (or closeted) propagandists, and they just straight up weren't as educated. So their stuff is useful. . . . to a degree.
 
-Same as stuff in Ruby. Sure, when I see that Stack Overflow date that's from 1999, I pretty much stop reading. But what happens when you Google something and *all* the results are from 1999?
+INSERT OLD TIMERS
 
-Could be outdated and useless (usually is), or it could just be an old post about old code that still exists. After all, Ruby 5 is still, well, Ruby, just as Ruby 1.95 was and is Ruby.
+Same as old stuff in Ruby. Sure, when I see that Stack Overflow date that's from 1999, I pretty much stop reading. But what happens when you Google something and *all* the results are from 1999?
+
+Could be outdated and useless (usually is), or it could just be an old post about old code that still works. After all, Ruby 5 is still, well, Ruby, just as Ruby 1.95 was and is Ruby.
 
 That brings us to inputs: in Ruby CLI, I've always used gets.strip or gets.chomp (depending on if I need to to go down a line or not).
 
-Normally, this isn't a problem. The behaviour for gets is basically to grab whatever value the user presses, show it in the command line, and wait for the user to press enter.
+INSERT CHOMP
 
-But this isn't the behavior I wanted: on every keypress, if that keypress is an x, move the x token one dash to the right (delete dash, replace with x), delete the previous x token, and repeat over and over without going on down the line.
+Normally, this isn't a problem. The behavior for gets is basically to grab whatever value the user presses, show it in the command line, and wait for the user to press enter.
 
-So I had to do some deep dives in to Ruby inputs and pulled out STDIN.getch. This allows you to grab the input value without needing to press enter. And you do need to `require 'io/console'`
+But this isn't the behavior I wanted: on every keypress, if that keypress is an x, move the x token one dash to the right (delete dash, replace with x), delete the previous x token, and repeat over and over without changing lines.
 
-STDIN--or Standard Input--was, however a revelation. It opened up a whole new way of getting input from the command line. I thought I had it figured out. . .  
+So I had to do some deep dives into Ruby inputs and pull STDIN.getch. This allows you to grab the input value without needing to press enter. And you do need to `require 'io/console'`
 
-Until I actually used it and ended up in a loop that repeated 100 times and redrew the board game every.single.time.
+This, however, still didn't do exactly what I wanted. I ended up in a loop that repeated 100 times and redrew the board game every.single.time.
 
 ![X moving slowly across board game](https://i.imgur.com/Qd2yozF.png)
+
+But I was on the right track (see that? See what I did there?)
+
+INSERT LAUGHTER
+
+STDIN--or Standard Input--was a revelation. It opened up a whole new way of getting input from the command line. But it still left me with a program that didn't do what I wanted.
 
 So unless we rename the 100-yard dash 100-yard descent, more research into Ruby inputs remains to be done to get our token over that finish line.
 
 TO BE CONTINUED . . .
+
+INSERT FINISH LINE
