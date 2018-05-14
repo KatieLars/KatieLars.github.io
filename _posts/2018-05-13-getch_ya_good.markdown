@@ -5,6 +5,8 @@ date:       2018-05-06 22:56:58 -0400
 permalink:  getch_ya_good
 ---
 
+PART ONE: Getch Ya Good
+
 Ruby. Not Ruby on Rails but straight up command line Ruby. Sometimes I forget what it can do and what it "can't" (I put this in quotes because it doesn't necessarily mean that Ruby can't do something; it's just I don't know if it can).
 
 So the challenge for this month's ChicagoRuby Hack Night was to make a version of the 100-yard dash from the old video game Track & Field.
@@ -43,4 +45,16 @@ That brings us to inputs: in Ruby CLI, I've always used gets.strip or gets.chomp
 
 Normally, this isn't a problem. The behaviour for gets is basically to grab whatever value the user presses, show it in the command line, and wait for the user to press enter.
 
-But this isn't the behavior I wanted: 
+But this isn't the behavior I wanted: on every keypress, if that keypress is an x, move the x token one dash to the right (delete dash, replace with x), delete the previous x token, and repeat over and over without going on down the line.
+
+So I had to do some deep dives in to Ruby inputs and pulled out STDIN.getch. This allows you to grab the input value without needing to press enter. And you do need to `require 'io/console'`
+
+STDIN--or Standard Input--was, however a revelation. It opened up a whole new way of getting input from the command line. I thought I had it figured out. . .  
+
+Until I actually used it and ended up in a loop that repeated 100 times and redrew the board game every.single.time.
+
+![X moving slowly across board game](https://i.imgur.com/Qd2yozF.png)
+
+So unless we rename the 100-yard dash 100-yard descent, more research into Ruby inputs remains to be done to get our token over that finish line.
+
+TO BE CONTINUED . . .
