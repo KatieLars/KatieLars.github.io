@@ -31,19 +31,19 @@ Give the user instructions on how to win. They have to press x (we kept it simpl
 
 Step 3: Grab that user input
 
-And this is where things got tricky: getting that user input. This actually took the bulk of our time to do because it meant digging back through some old. friggin. Ruby.
+And this is where things got tricky: getting that user input. This actually took the bulk of our time to do because it meant digging back through some old. friggin'. Ruby.
 
 **Lesson**: For posterity, let it be known that old stuff is tricky. Handle it with care. In any field. Coming from art history, old stuff can be great. You can get an idea of what people were thinking, what contemporary reception of an artwork was, and so on.
 
 But there's a problem: people lie or at least aren't truthful.
 
-INSERT GASP HERE
+![Lego Batman Gasp](https://i.imgur.com/PzqF8T9.gif)
 
 There was a time when academia wasn't striving towards being impartial (methodological debates aside). Generally speaking, we try at least take in as many viewpoints and go where the evidence leads us rather than funneling evidence to fit a preconceived theory.
 
 Back in the day and outside the political theater, people jumped to conclusions, they puffed up their own theories at the expense of others, they were open (or closeted) propagandists, and they just straight up weren't as educated. So their stuff is useful. . . . to a degree.
 
-INSERT OLD TIMERS
+![Abe Simpson Talking to Lisa](https://i.imgur.com/buZbz8v.gif)
 
 Same as old stuff in Ruby. Sure, when I see that Stack Overflow date that's from 1999, I pretty much stop reading. But what happens when you Google something and *all* the results are from 1999?
 
@@ -51,7 +51,7 @@ Could be outdated and useless (usually is), or it could just be an old post abou
 
 That brings us to inputs: in Ruby CLI, I've always used gets.strip or gets.chomp (depending on if I need to to go down a line or not).
 
-INSERT CHOMP
+![Jurassic Park T-Rex Chomping Fries](https://i.imgur.com/6SIY6AO.gif)
 
 Normally, this isn't a problem. The behavior for gets is basically to grab whatever value the user presses, show it in the command line, and wait for the user to press enter.
 
@@ -65,7 +65,7 @@ This, however, still didn't do exactly what I wanted. I ended up in a loop that 
 
 But I was on the right track (see that? See what I did there?)
 
-INSERT LAUGHTER
+![Jake from Adventure Time Laughing](https://i.imgur.com/WYoQTEL.gif)
 
 STDIN--or Standard Input--was a revelation. It opened up a whole new way of getting input from the command line. But it still left me with a program that didn't do what I wanted.
 
@@ -73,4 +73,4 @@ So unless we rename the 100-yard dash 100-yard descent, more research into Ruby 
 
 TO BE CONTINUED . . .
 
-INSERT FINISH LINE
+![Jerry Seinfeld Crossing Finish Line](https://i.imgur.com/4fUNrPo.gif)
