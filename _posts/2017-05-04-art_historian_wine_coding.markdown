@@ -5,6 +5,7 @@ date:       2017-05-04 15:25:58 -0400
 permalink:  art_historian_wine_coding
 ---
 
+So much common sense in my career path. So. Much. Sense.
 
 My presence here is . . . unusual. At least for people who are not me. I just got off an exhausting 10-year project working to become a museum curator and a crushing 2-year stint in wine retail. For the majority of the folks I know (including my very own folks), coding came out of left field. I remember my mom saying "Medical coding?" when I told her what I wanted to do.
 
@@ -14,25 +15,25 @@ If you're me, though, my presence here is not at all unusual. Here's a caveat be
 
 ![](http://i.imgur.com/PaJE8xv.jpg)
 
-After I started work on my dissertation in art history--which was about 3 years ago--, I ran into a sort of reality wall. Maybe it was my getting older and more practical, maybe it was the end of the degree in sight, but there it was, looming large and ugly. Dusty, monochrome bricks--some of which were crumbling--made up its career possibilities; its mortar was poverty, debt, and want. At the top, there were a few shiny pinnacles--genuine gold--buttressed by the harsh slab underneath. But perhaps strangest of all was the shadow it cast on my idealism and my unwavering faith in the value of art and its history. That shadow and the realities of academia and its place in the world seemed to suck the air out of anything that was not them--i.e. the ver the subjects it proposes to study. Out of art history itself. 
+After I started work on my dissertation in art history--which was about 3 years ago--, I ran into a sort of reality wall. Maybe it was my getting older and more practical, maybe it was the end of the degree in sight, but there it was, looming large and ugly. Dusty, monochrome bricks--some of which were crumbling--made up its career possibilities; its mortar was poverty, debt, and want. At the top, there were a few shiny pinnacles--genuine gold--buttressed by the harsh slab underneath. But perhaps strangest of all was the shadow it cast on my idealism and my unwavering faith in the value of art and its history. That shadow and the realities of academia and its place in the world seemed to suck the air out of anything that was not them--i.e. the ver the subjects it proposes to study. Out of art history itself.
 
 But I was passionate about writing, about art, about learning. Surely I would overcome this and get what I needed. And if I didn't, the fault would be mine. I wouldn't have been passionate or tough enough to stick it out. Millions of others had followed the same path and come out on top. Yet the grants were few, the advice was strange ("Power through your dissertation!" "But how am I supposed to eat?") and disconnected from reality, and at the end of it all, many of the job processes are convoluted (we're talking hotel room interviews here). WTF? Nevermind, PASSION!
 
 ![](https://tctechcrunch2011.files.wordpress.com/2015/02/chicago.jpg)
 
-When I moved to Chicago, I was offered jobs in the arts that had no pay. That's right: they interviewed me and said I could work for them . . . for free! With the idea that the "experience" or "connections" would eventually land me somewhere with a pay check. Oh well. Because . . . PASSION. 
+When I moved to Chicago, I was offered jobs in the arts that had no pay. That's right: they interviewed me and said I could work for them . . . for free! With the idea that the "experience" or "connections" would eventually land me somewhere with a pay check. Oh well. Because . . . PASSION.
 
-Over the years, I saw friends graduate and move to odd places for jobs; stay home and have babies; work and give up on wanted children; or make $10,000/year and sleep on sofas. And I realized that it wasn't me. It wasn't about how much passion I had for the subject. Academia--the sociocultural monolith formed by men over the past 200 years that composed the practical realities of my subject--was out of touch, and, in my opinion, abusively so. 
+Over the years, I saw friends graduate and move to odd places for jobs; stay home and have babies; work and give up on wanted children; or make $10,000/year and sleep on sofas. And I realized that it wasn't me. It wasn't about how much passion I had for the subject. Academia--the sociocultural monolith formed by men over the past 200 years that composed the practical realities of my subject--was out of touch, and, in my opinion, abusively so.
 
- I can't say that I actually accomplished anything that seemed to have an material impact on me or on the field writ large. Sure, I published articles and contributed to the general base of knowledge, but outside, in the real world, the subject was still niche. I can't point to any monetary impact I had on sales or efficiency; I can't point to how many people I trained or projects I lead; I can't point to any results for anything. 
+ I can't say that I actually accomplished anything that seemed to have an material impact on me or on the field writ large. Sure, I published articles and contributed to the general base of knowledge, but outside, in the real world, the subject was still niche. I can't point to any monetary impact I had on sales or efficiency; I can't point to how many people I trained or projects I lead; I can't point to any results for anything.
 
 ![](http://i.imgur.com/kFdFUiW.jpg)
 
-Exhasperated, but still holding on to finishing that degree, I took a job at a wine retail store. I love wine. It's simultaneously the most wonderful thing I've ever put in my mouth and the grossest thing I've ever put in mouth (yes, it beats out the time I accidentally swallowed a fly or got bits of a wool sweater between my teeth--I didn't expect those things to be delicious; I expect wine to taste good, so when it doesn't, the disgust is laced with disappointment, which makes it infinitely worse than flies or wool). 
+Exhasperated, but still holding on to finishing that degree, I took a job at a wine retail store. I love wine. It's simultaneously the most wonderful thing I've ever put in my mouth and the grossest thing I've ever put in mouth (yes, it beats out the time I accidentally swallowed a fly or got bits of a wool sweater between my teeth--I didn't expect those things to be delicious; I expect wine to taste good, so when it doesn't, the disgust is laced with disappointment, which makes it infinitely worse than flies or wool).
 
-This experience was personally crushing and uplifting (it's still retail after all, and after working 40+ hours a week, it was hard to find time for research and writing ). But I saw the wall in wine too. It just looked different: the bricks were multicolored, some dusty, some slick; the mortar was low wages and uncomfortable choices (service, retail, and sales--the primary career choices--are  profoundly unpleasant to me). But there were a lot more pinnacles at the top (burgundy-colored of course), and the wall was significantly shorter. Passion could actually get you there. 
+This experience was personally crushing and uplifting (it's still retail after all, and after working 40+ hours a week, it was hard to find time for research and writing ). But I saw the wall in wine too. It just looked different: the bricks were multicolored, some dusty, some slick; the mortar was low wages and uncomfortable choices (service, retail, and sales--the primary career choices--are  profoundly unpleasant to me). But there were a lot more pinnacles at the top (burgundy-colored of course), and the wall was significantly shorter. Passion could actually get you there.
 
-What struck me most about the wine, though, was how everyone seemed to come at it from another field: insurance adjustment, music, furniture retail, office admin, journalism, stock brokerage, commercial editor, etc. Nearly every person I met had come to wine because they loved drinking it, learning about it, and teaching others about it. You may not have started with the passion, but boy, did you sure feel it. 
+What struck me most about the wine, though, was how everyone seemed to come at it from another field: insurance adjustment, music, furniture retail, office admin, journalism, stock brokerage, commercial editor, etc. Nearly every person I met had come to wine because they loved drinking it, learning about it, and teaching others about it. You may not have started with the passion, but boy, did you sure feel it.
 
 But the retail was killing me, and the pay was not enough to support my life.
 
@@ -45,7 +46,7 @@ Then the tuition bill came due. $7,000 for 4 months. No professors (I was disser
 
 I remember the day I decided to quit. It was late November, and we had been having some mouse problems in our apartment, so I was on my way to Home Depot for some new traps. My dad called me in the parking lot as I was coming out of the store to discuss the tuition bill. I started crying. And I decided to quit.
 
-And a load was taken off me. I physically felt lighter. Over the next few weeks my attitude and health improved.  I didn't regret what I did. I knew it was the right move for me. I was only concerned with whether or not my parents and advisor were let down, but they were behind me. I didn't know what I wanted in the positive yet, but I did know that I didn't want to work retail or be in academics. 
+And a load was taken off me. I physically felt lighter. Over the next few weeks my attitude and health improved.  I didn't regret what I did. I knew it was the right move for me. I was only concerned with whether or not my parents and advisor were let down, but they were behind me. I didn't know what I wanted in the positive yet, but I did know that I didn't want to work retail or be in academics.
 
 Here's where the coding comes in. Now I had dabbled in code at Codeacademy and had looked at the idea of making an art history app about a year earlier to my enrollment at Flatiron. It was appealing, the idea of actually building something in the world that people could use. But I had always thought of it as something I could do after I got the PhD. A sort of sideline. After all, that was not how things were done for art historians. The entry requirement was the PhD. You had to get it. Digital humanities would come after.
 
@@ -71,14 +72,10 @@ And the failing! I loved the failing. You're tests didn't pass. AND NOTHING HAPP
 
 But what sold me on coding was the endless hope for change. This is a skill to change the world. Coding, like any language, changes the way you think, how you think, what thoughts you're even capable of thinking. If academia was brutally slow to change, and wine was the refuge for the passionate, coding thrived off of change and welcomed all passions. I still love art, and I still love wine, but it's time for my relationship with them to change. And I hope to change others' relationships with art and wine as well.
 
-Coding is the realization that humans are capable of anything. We can change this world. We can breathe new life and value into that which we thought was ashen and defunct. We can create knowledge and build structures for expanding access to it. And we can do it together, one coding puzzle at a time. 
+Coding is the realization that humans are capable of anything. We can change this world. We can breathe new life and value into that which we thought was ashen and defunct. We can create knowledge and build structures for expanding access to it. And we can do it together, one coding puzzle at a time.
 
-And that is why I code. 
+And that is why I code.
 
 Because, yes, we can.
 
 ![](https://s-media-cache-ak0.pinimg.com/736x/03/0e/03/030e036a9b8e0ceaff3c9a631008f51d.jpg)
-
-
-
-

@@ -5,8 +5,6 @@ date:       2018-05-20 22:56:58 -0400
 permalink:  "railsway_security"
 ---
 
-Rail(s)way Security
-
 ![Elevated Railway](https://i.imgur.com/2jaqwrJ.jpg)
 
 I didn't quite get to the second part of Ruby inputs; working on two full-on React and Rails projects will do that! I promise I will get back to those dear-old inputs of Ruby Track & Field.
