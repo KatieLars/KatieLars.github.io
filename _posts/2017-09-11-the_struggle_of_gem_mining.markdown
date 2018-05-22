@@ -5,8 +5,9 @@ date:       2017-09-11 16:12:05 -0400
 permalink:  the_struggle_of_gem_mining
 ---
 
+The good, the bad, and the stinkburger code.
 
-Whew. Long time, no write-y. I've been chipping away diligently at the CLI gem data project, writing some glorious code, and some real stinkburger code. For a month. And now I'm finally ready to turn it in. So the end. is. finally. here. 
+Whew. Long time, no write-y. I've been chipping away diligently at the CLI gem data project, writing some glorious code, and some real stinkburger code. For a month. And now I'm finally ready to turn it in. So the end. is. finally. here.
 
 ![No Homer. Not near. Here.](https://i.imgur.com/zvnPSaf.png)
 
@@ -34,7 +35,7 @@ Ok. Museum plug over. I'm a member at the AIC, but don't use the perks of said m
 
 The idea of what I wanted this app to do was fairly set out in my mind. I also knew who I imagined as the target user for such an app (mostly college educated, culturally and technologically aware adults ages 19-55--with and without children, with modest-to-ample financial means). Thus I knew from the beginning what kind of functionality was required. I began sketching.
 
-I found the AIC pages I would need to scrape (thankfully, they are put together in a very linear, straight-forward fashion), and what info I wanted users to be able to access. For example, if a user types "all", I wanted all events to display (a feature I also ended up limiting, because, let's face it, no one is going to peruse 800+ results). As I did this, I started to see Ruby objects: Events would clearly have to be one, Exhibitions, EventType (functioning much as the Genre class did in the Music Importer lab), a CLI class of course, and a general Info class. The scope--and future scope--of the project began to emerge and expand. And then I knew I was in for it. 
+I found the AIC pages I would need to scrape (thankfully, they are put together in a very linear, straight-forward fashion), and what info I wanted users to be able to access. For example, if a user types "all", I wanted all events to display (a feature I also ended up limiting, because, let's face it, no one is going to peruse 800+ results). As I did this, I started to see Ruby objects: Events would clearly have to be one, Exhibitions, EventType (functioning much as the Genre class did in the Music Importer lab), a CLI class of course, and a general Info class. The scope--and future scope--of the project began to emerge and expand. And then I knew I was in for it.
 
 **The Middle aka The Process aka The Grind**
 
@@ -58,14 +59,8 @@ So the only thing left to do was install a local environment using Atom. Now, th
 
 **The End (and the future?)**
 
-In the end, everything got set up: GitHub, Atom, my app. And unbeknownst to me, I was still at least 2 weeks away from finishing. But I pushed and pulled, learned to reuse previous user input and the value of a class counter (that was a huge dawn-dawn moment), installed the truly life-saving Chronic gem, and learned my lesson of paying attention to details while you code because going back and adding code for outliers, for example, can break a helluva lot of other business. Pry was invaluable. Terminal's weird antipathy towards copy-and-pasting drove me nuts. And every time I thought it worked well enough to proudly show my partner, he would break it almost instantly. 
+In the end, everything got set up: GitHub, Atom, my app. And unbeknownst to me, I was still at least 2 weeks away from finishing. But I pushed and pulled, learned to reuse previous user input and the value of a class counter (that was a huge dawn-dawn moment), installed the truly life-saving Chronic gem, and learned my lesson of paying attention to details while you code because going back and adding code for outliers, for example, can break a helluva lot of other business. Pry was invaluable. Terminal's weird antipathy towards copy-and-pasting drove me nuts. And every time I thought it worked well enough to proudly show my partner, he would break it almost instantly.
 
-But I enjoyed the struggle. So much so, that I would have probably kept going with this for a while longer if I could have. And I want to return to this program, expand on it. The need it addresses is real; I'd totally download an app that sent me notifications about cultural instutitions of my choosing. There is sooooo much room for expansion. I would love to go back and add more code for taking care of the outliers that could occur everytime a user enters new input. But for the purposes of this course, the whistle had blown. I had to stop. Just like now. I have to stop. 
+But I enjoyed the struggle. So much so, that I would have probably kept going with this for a while longer if I could have. And I want to return to this program, expand on it. The need it addresses is real; I'd totally download an app that sent me notifications about cultural instutitions of my choosing. There is sooooo much room for expansion. I would love to go back and add more code for taking care of the outliers that could occur everytime a user enters new input. But for the purposes of this course, the whistle had blown. I had to stop. Just like now. I have to stop.
 
 ![See ya](https://media.giphy.com/media/26tk1RUHNm9zbdoXK/giphy.gif)
-
-
-
-
-
-
