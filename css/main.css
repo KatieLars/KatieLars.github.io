@@ -1730,6 +1730,10 @@
 		margin: 2.5em 0 0 0;
 	}
 
+p img {
+	max-height: 100%;
+	max-width: 100%;
+}
 /* Image */
 
 	.image {
