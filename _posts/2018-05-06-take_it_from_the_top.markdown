@@ -5,7 +5,9 @@ date:       2018-05-06 22:56:58 -0400
 permalink:  take_it_from_the_top
 ---
 
-This should really be called "Eat Your Veggies". See I have this problem where I forget sometimes to eat my code veggies.
+This should really be called "Eat Your Veggies". 
+
+See I have this problem where I forget sometimes to eat my code veggies.
 
 ![Man Fondling Lettuce](https://i.imgur.com/WgfV54W.gif)
 

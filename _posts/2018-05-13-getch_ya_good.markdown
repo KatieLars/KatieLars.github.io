@@ -5,7 +5,7 @@ date:       2018-05-06 22:56:58 -0400
 permalink:  getch_ya_good
 ---
 
-PART ONE: Getch Ya Good
+PART ONE
 
 Ruby. Not Ruby on Rails but straight up command line Ruby. Sometimes I forget what it can do and what it "can't" do (I put this in quotes because it doesn't necessarily mean that Ruby *can't* do something; it's just I don't know if it *can*).
 
