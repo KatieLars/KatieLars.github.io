@@ -2,7 +2,7 @@
 layout: post
 title:      "Postmodernist Rails: Self-Reference"
 date:       2018-05-20 22:56:58 -0400
-permalink:  "postmodernist_rails_self-reference"
+permalink:  "postmodernist_rails_self_reference"
 ---
 
 "That postmodernism is undefinable is a truism."
