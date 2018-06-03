@@ -2538,7 +2538,7 @@ p img {
 				position: relative;
 				left: -1em;
 				top: 0;
-				width: auto;
+				width: 100%;
 				margin-right: -2em;
 				margin-bottom: 3em;
 			}
