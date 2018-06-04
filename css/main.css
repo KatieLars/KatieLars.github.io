@@ -2538,8 +2538,8 @@ p img {
 				display: block;
 				margin-left: auto;
 				margin-right: auto;
-				margin-top:auto;
-				margin-bottom: auto;
+				padding-top: 5em;
+				padding-bottom: 5em;
 				/* position: center;
 				left: -1em;
 				top: 0;
