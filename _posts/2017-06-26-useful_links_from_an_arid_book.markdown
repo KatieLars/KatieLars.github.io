@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "An Oasis in the Desert, or, Useful Links from an Arid Book"
+title:  "Useful Links from an Arid Book"
 date:   2017-06-26 19:03:48 -0400
+permalink: "useful_links_from_an_arid_book"
 ---
 
 Jon Duckett's HTML & CSS: Design and Build Websites.
