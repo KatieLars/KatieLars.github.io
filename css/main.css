@@ -2535,7 +2535,7 @@ p img {
 			}
 
 			.carousel article .image {
-				position: relative;
+				position: center;
 				left: -1em;
 				top: 0;
 				width: auto;
