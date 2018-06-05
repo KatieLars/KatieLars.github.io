@@ -2103,13 +2103,12 @@ p img {
 		}
 
 /* Header */
-
+/* background-attachment: fixed; */
 	#header {
 		position: relative;
 		background-image: url("../images/Bacchantes_Sylvia_Lacoste_1876.jpg");
 		background-size: cover;
 		background-position: center center;
-		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
