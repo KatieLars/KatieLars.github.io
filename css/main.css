@@ -2092,7 +2092,7 @@ p img {
 /* Wrapper */
 /* background: #fff; */
 	.wrapper {
-		background-image: url("../images/Bacchantes_Sylvia_Lacoste_1876.jpg") ;
+		background: url("../images/Bacchantes_Sylvia_Lacoste_1876.jpg") ;
 		margin: 0 0 2em 0;
 		padding-top: 2em;
 	}
