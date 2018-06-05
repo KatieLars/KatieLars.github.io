@@ -7,7 +7,7 @@ layout: default
     <h2><strong>Blog</strong></h2>
   </header>
 </section>
-
+<div class="content wrapper">
 {% for post in site.posts %}
 <div class="wrapper style2" >
 
@@ -29,6 +29,7 @@ layout: default
 
 </div>
 {% endfor %}
+</div>
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
