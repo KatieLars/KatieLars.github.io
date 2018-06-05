@@ -2101,11 +2101,12 @@ p img {
 			width: 80%;
 			margin-left: auto;
 			margin-right: auto;
-			opacity: 0.2;
+
 		}
 
 	.content.wrapper {
 		background-image: url("../images/Bacchantes_Sylvia_Lacoste_1876.jpg");
+		background-size: cover;
 	}
 
 /* Header */
@@ -2382,6 +2383,7 @@ p img {
 
 	#main {
 		margin-bottom: 0;
+
 	}
 
 		#main section:first-of-type {
