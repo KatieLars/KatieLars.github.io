@@ -9,10 +9,10 @@ layout: default
 </section>
 
 {% for post in site.posts %}
-<div class="wrapper style2">
+<div class="wrapper style2" style="background-image: url('../images/Bacchantes_Sylvia_Lacoste_1876')" >
 
   <article id="main" class="container special">
-    <a href="{{ post.url | prepend: site.baseurl }}" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+    <a href="{{ post.url | prepend: site.baseurl }}" class="image featured"></a>
     <header>
       <h2><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
       {% if post.subtitle %}
