@@ -2096,10 +2096,9 @@ p img {
 		margin: 0 0 2em 0;
 		padding-top: 2em;
 	}
-
+	/* padding-bottom: 6em; */
 		.wrapper.style2 {
 			width: 80%;
-			padding-bottom: 6em;
 			margin-left: auto;
 			margin-right: auto;
 		}
