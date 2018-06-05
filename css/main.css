@@ -2100,6 +2100,8 @@ p img {
 		.wrapper.style2 {
 			width: 80%;
 			padding-bottom: 6em;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 /* Header */
