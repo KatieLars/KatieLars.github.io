@@ -2388,6 +2388,17 @@ p img {
 
 		#main section:first-of-type {
 			padding-top: 2em;
+
+		}
+
+		#main > p {
+			color: black;
+			font-weight: bold;
+		}
+
+		#main header h2 a {
+			color: black;
+			font-weight: bold;
 		}
 
 /* Footer */
