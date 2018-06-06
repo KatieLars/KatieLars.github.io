@@ -2114,7 +2114,7 @@ p img {
 /* background-attachment: fixed; */
 	#header {
 		position: relative;
-		background-image: url("../images/Bacchantes_Sylvia_Lacoste_1876.jpg");
+		background-image: url("../images/Costume_detail.jpg");
 		background-size: cover;
 		background-position: center center;
 		color: #fff;
@@ -2365,6 +2365,10 @@ p img {
 		margin-bottom: 0;
 	}
 
+#features {
+	background-image: url("../images/Costume_detail.jpg");
+	background-size: 100%;
+}
 /* Sidebar */
 
 	#sidebar > hr {
