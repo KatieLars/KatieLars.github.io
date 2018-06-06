@@ -2104,9 +2104,9 @@ p img {
 
 		}
 
-	.content.wrapper {
-		background-image: url("../images/Bacchantes_Sylvia_Lacoste_1876.jpg");
-		background-size: cover;
+	.center {
+		background-image: url("../images/Bacchantes_Flowers_Lacoste_Sylvia_1876.jpg");
+		background-size: 100%;
 	}
 
 /* Header */
