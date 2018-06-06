@@ -2005,6 +2005,7 @@ p img {
 		border-radius: 0.5em;
 		text-decoration: none;
 		padding: 0.65em 3em 0.65em 3em;
+		margin-bottom: 1em;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
@@ -2383,12 +2384,10 @@ p img {
 
 	#main {
 		margin-bottom: 0;
-
 	}
 
 		#main section:first-of-type {
 			padding-top: 2em;
-
 		}
 
 		#main > p {
@@ -2401,6 +2400,10 @@ p img {
 			font-weight: bold;
 		}
 
+	 #main.container.special {
+		 background-color: white;
+		 opacity: 0.6;
+	 }
 /* Footer */
 
 	#footer {
