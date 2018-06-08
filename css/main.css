@@ -1997,6 +1997,7 @@ p img {
 	input[type="reset"],
 	button,
 	.button {
+		opacity: 1.0;
 		position: relative;
 		display: inline-block;
 		background: rgba(151, 57, 0, 100);
@@ -2103,6 +2104,11 @@ p img {
 			margin-left: auto;
 			margin-right: auto;
 
+		}
+
+		.wrapper.style2:last-of-type {
+			margin-bottom: 0;
+			padding-bottom: 3em;
 		}
 
 	.center {
