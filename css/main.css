@@ -1767,6 +1767,23 @@
 		text-decoration: underline;
 	}
 
+	pre.highlight > code {
+		color: black;
+		font-weight: 500;
+		position: relative;
+		display: block;
+		padding-left: 20em;
+	}
+
+	pre.highlight {
+		position: relative;
+	}
+
+	div.highlight {
+		position: relative;
+
+	}
+
 
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {

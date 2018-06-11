@@ -21,7 +21,7 @@ is better than this:
 
 ![swarm of bees](https://media.giphy.com/media/Z1zd9yQlbkaCQ/giphy.gif)
 
-See the problem I found with hashes was trying to set values equal to any one constant key/value pair. In other words, I needed an initial value equal to the first key/value set that appears in the hash (of course, chosing the first pair is completely random since pairs don't have a strict order within a hash). If the data set were an array, I would simply say array_name[0] to access the data at that unique location. But location (i.e. order) is not the unique part of a hash; keys are.
+See the problem I found with hashes was trying to set values equal to any one constant key/value pair. In other words, I needed an initial value equal to the first key/value set that appears in the hash (of course, choosing the first pair is completely random since pairs don't have a strict order within a hash). If the data set were an array, I would simply say array_name[0] to access the data at that unique location. But location (i.e. order) is not the unique part of a hash; keys are.
 
 ![Cinderella Gus trying to get key](http://i.imgur.com/H3oXwA9.jpg)
 
@@ -40,18 +40,18 @@ You see, my conversation with Matt revealed that there is another way (not index
 So to set my initial values for comparison, to pin them down, I (with Matt's help) wrote this:
 ```
   if counter == 0
-      lowest_key = key
-      lowest_value = value
-    end
-```
+    lowest_key = key
+    lowest_value = value
+  end
+```  
 
-So at the first iteration (0), two variables (lowest_key and lowest_value) are set to that iteration's corresponding key/value pair (in this case, the key/value pair that appears first in the hash).
+So at the first iteration (0), two variables (`lowest_key` and `lowest_value`) are set to that iteration's corresponding key/value pair (in this case, the key/value pair that appears first in the hash).
 
 Now, I'm like
 
 ![Oprah loves bees](https://media.giphy.com/media/VhFps32TlNgsg/giphy.gif)
 
-Of course, all of this would've been moot had I just been allowed to use #min . . . But wasn't it so much more fun to work in the space/time continuum of iterations???
+Of course, all of this would've been moot had I just been allowed to use `min` . . . But wasn't it so much more fun to work in the space/time continuum of iterations???
 
 **WASN'T IT?? WASN'T IT??**
 
