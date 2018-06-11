@@ -1708,10 +1708,12 @@
 
 	article.post {
 		margin-bottom: 1em;
+		margin-top: 0;
 		background-image: url("../images/Costume_detail.jpg");
 	}
 
 	article.post.container {
+		padding-top: 2em;
 		width: 80%;
 		background: rgba(255, 255, 255, 0.6);
 	}
