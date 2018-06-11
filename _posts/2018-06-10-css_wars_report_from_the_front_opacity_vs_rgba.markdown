@@ -2,7 +2,7 @@
 layout: post
 title:      "CSS Wars--Report from the Front: Opacity vs. Rgba"
 date:       2018-06-010 20:35:58 -0500
-permalink:  css_opacity_vs_rgba
+permalink:  css_wars_report_from_the_front_opacity_vs_rgba
 ---
 ![CSS King of the Hill](https://i.imgur.com/GaBMkKo.gif)
 
