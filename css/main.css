@@ -1762,6 +1762,11 @@
 		margin-left: 0;
 	}
 
+	article.post.container > p > a {
+		color: blue;
+		text-decoration: underline;
+	}
+
 
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
