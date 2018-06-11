@@ -2353,7 +2353,7 @@ div.transparent {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: inherit;
+					color: white;
 					text-decoration: none;
 					border: 0;
 					outline: 0;
