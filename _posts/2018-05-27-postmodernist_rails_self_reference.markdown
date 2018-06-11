@@ -37,17 +37,17 @@ Basically self referentiality describes the relationship between a model and its
 
 Here's how you do this:
 
-  Database:
-    1. Create a users table like you normally would with your password_digest, username, email, etc.
+  **Database**   
+    1. Create a users table like you normally would with your ``password_digest``, username, email, etc.  
 
-    2. Create a join table called "friendships" (or whatever best describes the relationship between different users). This table will have a user_id and a friend_id as values. Each unique friendship id describes that relationship. For example, if I'm friends with Joe, that one friendship will have an id to identify it (e.g. Friendship 543).
+    2. Create a join table called "friendships" (or whatever best describes the relationship between different users). This table will have a `user_id` and a `friend_id` as values. Each unique friendship id describes that relationship. For example, if I'm friends with Joe, that one friendship will have an id to identify it (e.g. Friendship 543).
 
-  Models:
+  **Models**  
     1. Create a Friendship and User model. Remember, the term friend just describes a type of user.
 
     2. User: Now a user has_many :friendships, but what we actually want to use is something like katie.friends, which should return a bunch of User objects associated to the user katie. So, we add has_many :friends, through: :friendships. Now ActiveRecord knows to look for friend_id as a column in friendships.
 
-    3. Friendship: Each friendship belongs_to :user. That's the easy part. But we have to let the Friendship model know where to look for the friend_id (because we don't have a model called Friend, because friends are actually just fellow users). So you must include: belongs_to :friend, :class_name => "User". Done. Now it knows to friend_id is really just another name for user_id.
+    3. Friendship: Each friendship belongs_to :user. That's the easy part. But we have to let the Friendship model know where to look for the friend_id (because we don't have a model called Friend, because friends are actually just fellow users). So you must include: `belongs_to :friend, :class_name => "User"`. Done. Now it knows to friend_id is really just another name for user_id.
 
   And that's it. You're wired. You tired?
 
