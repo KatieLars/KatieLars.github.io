@@ -1598,6 +1598,7 @@
 
 	h2 {
 		font-size: 2.85em;
+		padding-top: 0.65em;
 	}
 
 	h3 {
@@ -1723,6 +1724,8 @@
 		header > p {
 			display: block;
 			font-size: 1.5em;
+			color: black;
+			font-weight: bold;
 			margin: 1em 0 2em 0;
 			line-height: 1.5em;
 			text-align: inherit;
@@ -2412,9 +2415,9 @@ p img {
 		}
 
 	 #main.container.special {
-		 background-color: white;
-		 opacity: 0.6;
+		 background: rgba(255, 255, 255, 0.6);
 	 }
+
 /* Footer */
 
 	#footer {

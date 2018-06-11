@@ -10,18 +10,19 @@ layout: default
 <div class="center">
 {% for post in site.posts %}
 <div class="wrapper style2" >
-
   <article id="main" class="container special">
+    
     <a href="{{ post.url | prepend: site.baseurl }}" class="image featured"></a>
     <header>
       <h2><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
       {% if post.subtitle %}
         <p>{{post.subtitle}}</p>
       {% endif %}
+      <p class="opaque">
+        {{ post.excerpt }}
+      </p>
     </header>
-    <p>
-      {{ post.excerpt }}
-    </p>
+
     <footer>
       <a href="{{ post.url | prepend: site.baseurl }}" class="button">Continue Reading</a>
     </footer>
@@ -30,6 +31,7 @@ layout: default
 </div>
 {% endfor %}
 </div>
+
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
