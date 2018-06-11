@@ -1880,15 +1880,19 @@ p img {
 		ol.default li {
 			padding-left: 0.25em;
 		}
-
+div.transparent {
+	background: rgba(255, 255, 255, 0.6);
+	padding: 1em;
+}
 /* Form */
 
 	form label {
 		display: inline;
-		font-weight: 400;
-		color: #483949;
+		font-weight: bold;
+		color: black;
 		margin: 0 0 1em 0;
 	}
+	/* color: #483949; */
 
 	form input[type="text"],
 	form input[type="email"],
@@ -2605,9 +2609,16 @@ p img {
 			}
 
 		/* Carousel */
-
+		section.carousel {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		
 			.carousel {
 				padding: 1.5em 0 1.5em 0;
+				background-image: url("../images/Costume_detail.jpg");
+				background-size: 100%;
+
 			}
 
 				.carousel .reel {
