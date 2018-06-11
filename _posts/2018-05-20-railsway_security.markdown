@@ -13,7 +13,7 @@ So as I was going through tech training questions, I came across a little refres
 
 ![Equifax](https://i.imgur.com/A8GJSce.jpg)
 
-CSRF and Security
+**CSRF and Security**
 
 So. Rails is pretty awesome. We all know that. But did you know it protects its own awesomeness against evildoers? It comes with tokens.
 
