@@ -29,7 +29,10 @@
 	}
 
 	ol, ul {
-		list-style: none;
+		list-style-type: decimal;
+		display: list-item;
+		font-weight: 500;
+		color: black;
 	}
 
 	blockquote, q {
@@ -1653,7 +1656,7 @@
 		font-style: italic;
 	}
 
-	p, ul, ol, dl, table {
+	p, dl, table {
 		margin-bottom: 1em;
 		margin-left: 2em;
 		margin-right: 2em;
@@ -1729,6 +1732,14 @@
 		color: black;
 		font-weight: 700;
 		text-decoration: underline black;
+	}
+
+ 	article.post.container > ol > li > p{
+		font: inherit;
+		color: black;
+		text-align: left;
+		font-weight: 500;
+		margin-left: 0;
 	}
 
 
