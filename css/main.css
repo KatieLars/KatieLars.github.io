@@ -33,6 +33,7 @@
 		display: list-item;
 		font-weight: 500;
 		color: black;
+		margin-left: 5em;
 	}
 
 	blockquote, q {

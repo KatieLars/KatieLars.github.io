@@ -54,6 +54,7 @@ Here's how you do this:
 
 3. Friendship: Each friendship `belongs_to :user`. That's the easy part. But we have to let the Friendship model know where to look for the `friend_id` (because we don't have a model called Friend, because friends are actually just fellow users). So you must include: `belongs_to :friend, :class_name => "User"`. Done. Now it knows to friend_id is really just another name for `user_id`.
 
+
   And that's it. You're wired. You tired?
 
   ![Shark Jumping](https://i.imgur.com/zb7lfOt.gif)
