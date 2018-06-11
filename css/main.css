@@ -28,12 +28,30 @@
 		line-height: 1;
 	}
 
-	ol, ul {
-		list-style-type: decimal;
-		display: list-item;
+	ul {
 		font-weight: 500;
 		color: black;
 		margin-left: 5em;
+	}
+
+	ol {
+		list-style-type: decimal;
+		font-weight: 500;
+		color: black;
+		margin-left: 5em;
+	}
+
+	span.pager a:nth-child(2) {
+		margin-left: 43em;
+	}
+
+	span.pager a:first-child {
+		margin-left: 1em;
+	}
+
+	span.pager a {
+		font-weight: 500;
+		color: black;
 	}
 
 	blockquote, q {
@@ -1720,6 +1738,7 @@
 
 	article.post.container {
 		padding-top: 2em;
+		padding-bottom: 1em;
 		width: 80%;
 		background: rgba(255, 255, 255, 0.6);
 	}
