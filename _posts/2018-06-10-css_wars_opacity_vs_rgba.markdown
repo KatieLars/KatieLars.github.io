@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CSS Wars: Opacity vs. Rgba"
-date:       2018-06-010 20:35:58 -0500
+date:       2018-06-10 20:35:58 -0500
 permalink:  css_wars_opacity_vs_rgba
 ---
 ![CSS King of the Hill](https://i.imgur.com/GaBMkKo.gif)
