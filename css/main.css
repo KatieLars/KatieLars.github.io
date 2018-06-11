@@ -1706,6 +1706,21 @@
 		margin-top: 1em;
 	}
 
+	article.post {
+		margin-bottom: 1em;
+		background-image: url("../images/Costume_detail.jpg");
+	}
+
+	article.post.container {
+		width: 80%;
+		background: rgba(255, 255, 255, 0.6);
+	}
+
+	article.post.container > p {
+		color: black;
+		font-weight: 500;
+	}
+
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
 			margin-bottom: 0;
 		}
@@ -2361,7 +2376,7 @@ div.transparent {
 	#banner {
 		background: rgba(32, 4, 33, 100);
 		text-align: center;
-		padding: 4.5em 0 4.5em 0;
+		padding: 4.5em 0 2em 0;
 		margin-bottom: 0;
 	}
 
@@ -2613,7 +2628,7 @@ div.transparent {
 			margin-top: 0;
 			margin-bottom: 0;
 		}
-		
+
 			.carousel {
 				padding: 1.5em 0 1.5em 0;
 				background-image: url("../images/Costume_detail.jpg");
