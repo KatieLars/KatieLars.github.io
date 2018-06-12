@@ -9,14 +9,14 @@ Jumped on that bandwagon.
 
 ![People falling in hole](https://i.imgur.com/o5vhUPq.gif)
 
-So today is Day 1 of my 100 Days of Code Challenge. 100 days, and at some code every day. Today I fought--and lost--the CSS wars (why wouldn't the articles in my carousel line up? Why? WHY??).
+JK. But for realz. Today is Day 1 of my 100 Days of Code Challenge. 100 days, and at some code every day. Today I fought--and lost--the CSS wars (why wouldn't the articles in my carousel line up? Why? WHY??).
 
 But I started doing this for the same reasons I started to code in the first place: to build. I have a small moleskine full of project ideas, and I keep coming up with more.
 
 ![Neil Patrick Harris explosion gesture](https://i.imgur.com/wYZmRkA.gif)
 
-That's what I love about code: you can be a web developer even without being employed as a web developer. There are always projects to build and languages to learn. Go to Meetups, and you can even find other devs to pair up with. You don't need an employer to "crown" you a web developer or software engineer. All you need is to build.
+That's what I love about code: you can be a web developer even without being employed as a web developer. There are always projects to build and languages to learn. Go to Meetups, and you can even find other devs with whom you can pair. You don't need an employer to "crown" you a web developer or software engineer. All you need is to build.
 
 ![Simpsons building a BBQ](https://i.imgur.com/PiP5dBv.gif)
 
-So here's Day 1 of building: messing with CSS on my website to slightly move some boxes around. LOL.
+So here's Day 1 of building: messing with CSS on my website to slightly move some boxes around. Great things have small beginnings.
