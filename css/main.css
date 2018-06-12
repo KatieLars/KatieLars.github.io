@@ -1754,6 +1754,17 @@
 		text-decoration: underline black;
 	}
 
+	article.post.container > ol > li > p > strong {
+		color: black;
+		font-weight: 700;
+	}
+
+	article.post.container > ol > li > p > img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
  	article.post.container > ol > li > p{
 		font: inherit;
 		color: black;

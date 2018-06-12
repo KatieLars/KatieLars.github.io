@@ -40,17 +40,18 @@ I *felt* much more comfortable with the process of wiring my models with associa
 
 And although feelings are necessarily subjective, this one *felt* solid. This was the first app where I was in control of my code rather than just patching up functionality that had crumbled around the struts of my design. I got this. I felt like, well, a developer.
 
-A couple of things that unabashedly helped:
+A things that unabashedly helped:
 
-**Planning:** I took my sweet time on paper figuring out every. single. association, where my join tables were, whether some models needed to have associations at all (freezers don't have notes or need to know about item notes).
 
-**Separation of Concerns:** I actively tried to incorporate principles into the act of coding, such as DRY and Demeter, but the one that aided me the most was the Separation of Concerns. I tried to ask myself every step of the way, what I was doing and what should be responsible for doing it. As good ol' Marky Aurelius wrote in Book Eleven, "Consider whence each thing is come, and of what it consists, and into what it changes, and what kind of a thing it will be when it has changed, and that it will sustain no harm." Indeed.
+1. **Planning:** I took my sweet time on paper figuring out every. single. association, where my join tables were, whether some models needed to have associations at all (freezers don't have notes or need to know about item notes).
 
+2. **Separation of Concerns:** I actively tried to incorporate principles into the act of coding, such as DRY and Demeter, but the one that aided me the most was the Separation of Concerns. I tried to ask myself every step of the way, what I was doing and what should be responsible for doing it. As good ol' Marky Aurelius wrote in Book Eleven, "Consider whence each thing is come, and of what it consists, and into what it changes, and what kind of a thing it will be when it has changed, and that it will sustain no harm." Indeed.  
 ![Marcus Aurelius](https://i.imgur.com/xPcRi1D.jpg)
 
-**Prior knowledge** I can't quite put my finger on it, but by building up to Rails through SQL, ActiveRecord, Sinatra, Ruby and the like Rails' magic was actually less mindboggling. Simply put, it was the next logical step (although Devise--another, perhaps, logical step--is not my friend). It's like how Chicago is the Second City: a chunk of it burned down, and now, secretly (or not), all the ritzy apartment buildings between Michigan Avenue and Lake Michigan are just built on top of ashes. My Sinatra app difficulties are the ashes, and the shining towers of Rails stand atop them.
+3. **Prior knowledge:** I can't quite put my finger on it, but by building up to Rails through SQL, ActiveRecord, Sinatra, Ruby and the like Rails' magic was actually less mindboggling. Simply put, it was the next logical step (although Devise--another, perhaps, logical step--is not my friend). It's like how Chicago is the Second City: a chunk of it burned down, and now, secretly (or not), all the ritzy apartment buildings between Michigan Avenue and Lake Michigan are just built on top of ashes. My Sinatra app difficulties are the ashes, and the shining towers of Rails stand atop them.
 
-**Pushing it** Perhaps due to this comfort level and greater control over the app (although my CSS is definitely in need of work), I decided to do a mock run at a more professional sort of development. I created a separate Git branch called 'development' (yes, I know it should have been 'develop') which was where I worked until the final version was ready. I created unit tests for my model classes. It may have taken me a couple of extra days to do so, but it was great to be able to run those tests to know if my models were wired incorrectly (which I did even on the very last day).
+4. **Pushing it:** Perhaps due to this comfort level and greater control over the app (although my CSS is definitely in need of work), I decided to do a mock run at a more professional sort of development. I created a separate Git branch called 'development' (yes, I know it should have been 'develop') which was where I worked until the final version was ready. I created unit tests for my model classes. It may have taken me a couple of extra days to do so, but it was great to be able to run those tests to know if my models were wired incorrectly (which I did even on the very last day).
+
 
 **The Leftovers**
 
