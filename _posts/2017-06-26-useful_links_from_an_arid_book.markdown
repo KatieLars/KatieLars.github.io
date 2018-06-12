@@ -5,7 +5,7 @@ date:   2017-06-26 19:03:48 -0400
 permalink: "useful_links_from_an_arid_book"
 ---
 
-**Jon Duckett's HTML & CSS: Design and Build Websites**
+*Jon Duckett's HTML & CSS: Design and Build Websites*
 
 I finished what was simultaneously the driest and most useful book I may have ever read: *Jon Duckett's HTML & CSS: Design and Build Websites*. That I had a tough time getting through it was was actually a surprise to me, as I generally enjoyed the HTML and CSS section of the Flatiron curriculum (this was before the great CSS Wars to come). After the more conceptual section on GitHub, front-end code seemed concrete--you could actually see the immediate results of what you were doing. Suddenly, from art to wine to a reading club, ideas for websites abounded in my head. Because you know, if you build it, they will come.
 

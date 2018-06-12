@@ -4,6 +4,7 @@ title:      "Getch Ya Good"
 date:       2018-05-06 22:56:58 -0400
 permalink:  getch_ya_good
 ---
+AKA can I get some input here?
 
 **PART ONE**
 
