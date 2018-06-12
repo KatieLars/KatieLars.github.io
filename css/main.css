@@ -47,12 +47,14 @@ article.post.container > ul > li > ul > li {
 		margin-left: 5em;
 	}
 
-	span.pager a:nth-child(2) {
-		margin-left: 43em;
+	span.previous {
+		padding-right: 1em;
+		border-right-style: double;
+		border-width: thick;
 	}
 
-	span.pager a:first-child {
-		margin-left: 1em;
+	span.next {
+		padding-left: 1em;
 	}
 
 	span.pager a {

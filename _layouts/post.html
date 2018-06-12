@@ -36,14 +36,14 @@ layout: default
 
                 <span class="pager">
                     {% if page.previous.url %}
-
+                    <span class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-
+                    </span>
                     {% endif %}
                     {% if page.next.url %}
-
+                    <span class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-          
+                    <span>
                     {% endif %}
                 </span>
 
