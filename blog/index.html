@@ -4,14 +4,15 @@ layout: default
 
 <section id="banner">
   <header>
-    <h2><strong>Blog</strong></h2>
+    <h2><strong>The Blog</strong></h2>
+    <h4><strong>A Gif and Pun Laden Learning Journey in Code</strong></h4>
   </header>
 </section>
 <div class="center">
 {% for post in site.posts %}
 <div class="wrapper style2" >
   <article id="main" class="container special">
-    
+
     <a href="{{ post.url | prepend: site.baseurl }}" class="image featured"></a>
     <header>
       <h2><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
