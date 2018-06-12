@@ -9,7 +9,7 @@ permalink:  "postmodernist_rails_self_reference"
 
 Exactly how I would have put it. Thank you, Stanford Dictionary of Philosophy. How ever did you know?
 
-Postmodernism clumps disparate groups of thought and practice together into this undefinable mass of *stuff*. Roughly speaking, it's a historical philosophical backlash against unity of meaning, the goal of consensus in thought, and the general structuralism that, in particular, defined French philosophical discourse. We're talking late 60s and 70s, here, a time coincidentally of great social upheaval. It's about simulacra, excess, difference, performative knowledge, etc. It's about revealing the essentially constructed nature of thought and society, how we produce our reality, and calls into question the nature of legitimacy. Got that?
+Postmodernism clumps disparate groups of thought and practice together into this undefinable mass of *stuff*. Roughly speaking, it's a historical philosophical backlash against the unity of meaning, the goal of consensus in thought, and the general structuralism that defined French philosophical discourse in particular. We're talking late '60s and '70s, here, a time coincidentally of great social upheaval. It's about simulacra, excess, difference, performative knowledge, etc. It's about revealing the essentially constructed nature of thought and society, how we produce our reality, and calls into question the nature of legitimacy. Got that?
 
 Yeah. It's glorious and tough and full of arrogant white dudes.
 
@@ -17,42 +17,42 @@ Yeah. It's glorious and tough and full of arrogant white dudes.
 
 I'm getting to Rails, trust me.
 
-But what it did was reveal how our world is really defined by us. Even the absences--all the Derridean *différance*--are really just us, the modern subject (or so Habermas says in his *The Philosophical Discourse of Modernity*). We can never escape us.
+But what it did was reveal how our world is really defined by us. Even the absences--all the Derridean *différance*--are really just us, the modern subject (or so Habermas says in his *The Philosophical Discourse of Modernity*). We can never escape us; we can never escape ourselves.
 
-So here we are again with echoes of 1968 bouncing off of our historical walls and social media dominating the discourse.
+So here we are again with echoes of 1968 bouncing off our historical walls and social media dominating the discourse.
 
 ![Students in Paris 1968](https://i.imgur.com/BPxiQ66.jpg)
 
-Of course, social media apps are standard these days. We just spend our personal data like it's fliff night forever as long as we can continue playing Farmville with our friends. Needless to say, I wanted to make one of these social media apps. And I did: The Potluck Planner.
+Of course, social media apps are standard these days. We just spend our personal data like it's fliff night forever as long as we get to continue playing Farmville with our friends. Needless to say, I wanted to make one of these social media apps. And I did: The Potluck Planner.
 
 ![Screenshot of Potluck Planner](https://i.imgur.com/mYqFfZR.png)
 
 This is basically Facebook's Events functionality combined with a tracker for who's bringing what (so you don't end up with a bunch of potato salad and no hamburgers). Users can friend other users and then invite them to their potluck.
 
-So how did I do that? Self Referentiality.
+So how did I do that? Self-Referentiality.
 
 ![Vache qui rit](https://i.imgur.com/3xhE2e5.gif)
 
-Basically self referentiality describes the relationship between a model and itself. In this case, User. Because friends are also users, users has to reference itself.
+Basically self-referentiality describes the relationship between a model and itself. In this case, the User model. Because friends are also users, Users has to reference itself.
 
-Here's how you do this:
+Here's how you do it:
 
-  **Database**   
+**Database**   
 
 
 1. Create a users table like you normally would with your `password_digest`, username, email, etc.
 
-2. Create a join table called "friendships" (or whatever best describes the relationship between different users). This table will have a `user_id` and a `friend_id` as values. Each unique friendship id describes that relationship. For example, if I'm friends with Joe, that one friendship will have an id to identify it (e.g. Friendship 543).
+2. Create a join table called "friendships" (or whatever best describes the relationship between different users--frenemyships, parenthoods, whatever). This table will have a `user_id` and a `friend_id` as values. Each unique `friendship_id` describes that relationship. For example, if I'm friends with Joe, that one friendship will have an id to identify it (e.g. the Katie-Joe friendship has `friendship_id` 543).
 
 
   **Models**  
 
 
-1. Create a Friendship and User model. Remember, the term "friend" just describes a type of User.
+1. Create a Friendship and User model. Remember, the term "friend" just describes a type of User. We don't have a friend table.
 
-2. User: Now a user `has_many :friendships`, but what we actually want to use is something like `katie.friends`, which should return a bunch of User objects associated to the user katie. So, we add `has_many :friends, through: :friendships`. Now ActiveRecord knows to look for `friend_id` as a column in friendships.
+2. User: Now a user `has_many :friendships`, but what we actually want to use is something like `katie.friends`, which should return a bunch of User objects associated to the user represented by the variable `katie`. So, we add `has_many :friends, through: :friendships`. Now ActiveRecord knows to look for `friend_id` as a column in friendships.
 
-3. Friendship: Each friendship `belongs_to :user`. That's the easy part. But we have to let the Friendship model know where to look for the `friend_id` (because we don't have a model called Friend, because friends are actually just fellow users). So you must include: `belongs_to :friend, :class_name => "User"`. Done. Now it knows to friend_id is really just another name for `user_id`.
+3. Friendship: Each friendship `belongs_to :user`. That's the easy part. But we have to let the Friendship model know where to look for the `friend_id` (because we don't have a model called Friend, because friends are actually just fellow users). So you must include: `belongs_to :friend, :class_name => "User"`. Now it knows `friend_id` is really just another name for `user_id`.
 
 
   And that's it. You're wired. You tired?
