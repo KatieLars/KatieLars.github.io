@@ -5,7 +5,7 @@ date:       2018-06-24 20:35:58 -0500
 permalink:  very_varying_ruby_variables
 ---
 
-I like variables. They can store complex chunks of data, functions, links, small animals, and general splendoorz.
+I like variables. They can store complex chunks of data, functions, links, small animals, and general splendors.
 
 ![Wishmaster](https://i.imgur.com/iUzNAck.gif)
 
