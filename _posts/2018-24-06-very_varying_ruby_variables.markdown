@@ -33,7 +33,7 @@ Second, it doesn't appear to have a repeatable effect . . .
 
 Like `binding.local_variable_set(:foo, "bar")` will return `"bar"`. It is essentially the same as `eval`: it evaluates the expression, and so, of course, returns `"bar"`. But type `foo`, and an error message for an undefined variable pops up. As Louise Linton says, LOLOLOL.
 
-![Louise Linton Mean Facebook Quote](https://i.imgur.com/ynV8k0g.jpg)
+![Louise Linton Mean Facebook Quote](https://i.imgur.com/3pBq2qI.jpg)
 
 So how did I get around this: turns out, I didn't need this sort of functionality in the end. My methods were refactored and the need vanished.
 
