@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Deployment, or Best Tutorial EVER"
-date:       2018-06-10 20:35:58 -0500
+date:       2018-06-17 20:35:58 -0500
 permalink:  deployment_or_best_tutorial_ever
 ---
 
