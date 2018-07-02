@@ -6,7 +6,7 @@ permalink:  like_a_boss_bot
 ---
 New framework, increased visibility, enhanced personal joy--my Souls Borne Boss Bot covers it all.
 
-[IMAGE DARK SOULS]
+![Dark Souls 3 Knight](https://i.imgur.com/I3xgwZQ.jpg)
 
 **New Tech: Node.js**
 
@@ -14,7 +14,7 @@ So I've been looking to expand into new languages, frameworks, and tech in gener
 
 Node.js has popped up a couple of times in my job search: servers for code challenges have used Node, talks at meetups have been about Node, people have said "Node", whatever. So Node was there, lurking in the back of my mind.
 
-[IMAGE LURKER]
+![Lurker](https://i.imgur.com/SEkR9LS.gif)
 
 But tech should always fit its function. In other words, the question became, is Node a good fit for this project? Answer: yes.
 
@@ -22,11 +22,11 @@ Node is like a little client-side server. It's focused on runtime events, rather
 
 So if your app is a verb--tweeting, say--Node might be a pretty good choice for it.
 
-[IMAGE NOD]
+![Sailor Moon ok](https://i.imgur.com/rM2ZzLl.gif)
 
 **Learning about Learning**
 
-I'll admit it: I was in a bit of hurry getting this thing up as I wanted a codeditty (a code ditty--small, fun nearly pointless app) to add to my portfolio.
+I'll admit it: I was in a bit of hurry getting this thing up as I wanted a code ditty (definition: a small, fun nearly pointless app) to add to my portfolio.
 
 This was my first time learning on my own without the help of a straight up course or tutorial (there wasn't one tutorial that did everything I wanted my bot to do). So here's what I learned about learning:
 
@@ -42,7 +42,7 @@ Then I came to the Google Sheets API. OMG. This was where the real reverse engin
 
 The Node.js docs for using the Google Sheets API were pretty good, but didn't go through their code sample line by line, so it was hard to decipher what, exactly, was happening. For instance, I had to get a token from an OAuth2Client, which is fine. Pretty standard. But they started their code with `const TOKEN_PATH = "credentials.json"`. Where or what the hell was `credentials.json`? It wasn't a pre-established variable. It wasn't a file the sample tutorial had asked me to create (like it did when I exported my credentials from the developer console). So what the heck was it?
 
-[IMAGE WHAT IS THAT]
+![Lego Batman What the Heck](https://i.imgur.com/95xqOnG.gif)
 
 Turns out, it's a file created once you get the token. Once I had completed the authentication process, *poof* it appeared and the dawn-dawn moment in my brain happened.
 
@@ -54,7 +54,7 @@ Lesson is: figuring out someone else's less-than-perfectly-explained code is rou
 
 That was another takeaway from reverse engineering. And it's been my takeaway before (see my entry DEPLOYMENT OR BEST TUTORIALS)
 
-[IMAGE GOOD DOCS]
+![Big Bang Documents Fly](https://i.imgur.com/ivkpOYu.gif)
 
 **Third: `console.log` is Your Friend**
 
@@ -66,17 +66,19 @@ In a framework dominated by events and not outputs, `console.log` was a godsend 
 
 So, I made a new friend.
 
-[IMAGE NEW FRIEND]
+![Donnie Darko reaches out to Rabbit](https://i.imgur.com/LKju3nx.gif)
 
 **Fourth: Always More**
 
 And this is just the beginning. List of other things to build out:
   ~State. Knowing which bosses have been tweeted already would be good. I don't want people to see Pinwheel forever. Cuz that boss be dumb.
 
-[IMAGE PINWHEEL]
+![Dark Souls Pinwheel](https://i.imgur.com/nl12Bq2.jpg)
 
   ~Retweet. I want the bot to retweet everything with #DarkSouls or #SoulsBorne or #ShadowsDieTwice or #Sekiro as From builds up to a new epic release.
 
   ~More Bosses. This one's one me. I started with a very basic database of bosses for Dark Souls Prepare To Die edition. Now I need to add Demon Souls, Dark Souls 2, Dark Souls 3, and Bloodborne. But this is on me.
 
-So check out my code at GITHUB LINK and follow ATBOSSBOT for all your Souls Borne love. Because god, gleepglops unite, I love a good Souls Borne Boss.
+So check out my code at https://github.com/KatieLars/soulsBorneBot and follow https://twitter.com/BorneBot for all your Souls Borne love. Because lordy, gleepglops unite, I love a good Souls Borne Boss.
+
+![Moon Presence Bloodborne](https://i.imgur.com/rly9pMv.gif)
