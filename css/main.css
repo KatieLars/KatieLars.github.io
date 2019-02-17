@@ -1741,7 +1741,7 @@ article.post.container > ul > li > ul > li {
 	article.post {
 		margin-bottom: 1em;
 		margin-top: 0;
-		background-image: url("../images/Costume_detail.jpg");
+		background-image: url("../images/Me_in_DC.jpg");
 	}
 
 	article.post.container {
@@ -2225,7 +2225,7 @@ div.transparent {
 		}
 
 	.center {
-		background-image: url("../images/Costume_detail.jpg");
+		background-image: url("../images/Me_in_DC.jpg");
 		background-size: 100%;
 	}
 
@@ -2233,7 +2233,7 @@ div.transparent {
 /* background-attachment: fixed; */
 	#header {
 		position: relative;
-		background-image: url("../images/Costume_detail.jpg");
+		background-image: url("../images/Me_in_DC.jpg");
 		background-size: cover;
 		background-position: center center;
 		color: #fff;
@@ -2490,7 +2490,7 @@ div.transparent {
 	margin-top: 0;
 	padding-bottom: 1em;
 	padding-top: 1em;
-	background-image: url("../images/Costume_detail.jpg");
+	background-image: url("../images/Me_in_DC.jpg");
 	background-size: cover;
 }
 /* Sidebar */
@@ -2722,7 +2722,7 @@ div.transparent {
 
 			.carousel {
 				padding: 1.5em 0 1.5em 0;
-				background-image: url("../images/Costume_detail.jpg");
+				background-image: url("../images/Me_in_DC.jpg");
 				background-size: 100%;
 
 			}
