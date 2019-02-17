@@ -1741,7 +1741,7 @@ article.post.container > ul > li > ul > li {
 	article.post {
 		margin-bottom: 1em;
 		margin-top: 0;
-		background-image: url("../images/Shingles");
+		background-image: url("../images/Morris_MoMA.jpg");
 	}
 
 	article.post.container {
@@ -1836,6 +1836,10 @@ article.post.container > ul > li > ul > li {
 			line-height: 1.5em;
 			text-align: inherit;
 		}
+
+	.mainDescriptor {
+		color: white;
+	}
 
 	footer {
 		margin: 2.5em 0 0 0;
@@ -1986,7 +1990,7 @@ p img {
 			padding-left: 0.25em;
 		}
 div.transparent {
-	background: rgba(255, 255, 255, 0.6);
+	background: rgba(255, 255, 255, 0.7);
 	padding: 1em;
 }
 /* Form */
@@ -2113,7 +2117,7 @@ div.transparent {
 		opacity: 1.0;
 		position: relative;
 		display: inline-block;
-		background: rgba(151, 57, 0, 100);
+		background: rgba(90, 128, 214, 100);
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2225,7 +2229,7 @@ div.transparent {
 		}
 
 	.center {
-		background-image: url("../images/Me_in_DC.jpg");
+		background-image: url("../images/Morris_MoMA.jpg");
 		background-size: 100%;
 	}
 
@@ -2490,7 +2494,7 @@ div.transparent {
 	margin-top: 0;
 	padding-bottom: 1em;
 	padding-top: 1em;
-	background-image: url("../images/Me_in_DC.jpg");
+	background-image: url("../images/Morris_MoMA.jpg");
 	background-size: cover;
 }
 /* Sidebar */
@@ -2529,7 +2533,7 @@ div.transparent {
 		}
 
 	 #main.container.special {
-		 background: rgba(255, 255, 255, 0.6);
+		 background: rgba(255, 255, 255, 0.7);
 	 }
 
 /* Footer */
@@ -2693,14 +2697,20 @@ div.transparent {
 				padding-bottom: 1em;
 				/* position: center;
 				left: -1em;
-				top: 0;
-				width: auto; */
+				top: 0; */
+				
 				/* margin-right: -2em; */
 				/* margin-bottom: 3em; */
 			}
 
 			.carousel article p {
 				text-align: center;
+			}
+
+			.spiceSwapImage {
+				padding-top: 1em;
+				width: 100%;
+				height: auto;
 			}
 
 /* Wide */
@@ -2722,7 +2732,7 @@ div.transparent {
 
 			.carousel {
 				padding: 1.5em 0 1.5em 0;
-				background-image: url("../images/Shingles.jpg");
+				background-image: url("../images/Morris_MoMA.jpg");
 				background-size: 100%;
 
 			}
