@@ -60,8 +60,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ffi (>= 1.9.24)
-  jekyll (>= 3.8.4)
   jekyll-feed
   jekyll-paginate
 
