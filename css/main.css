@@ -1661,7 +1661,7 @@ article.post.container > ul > li > ul > li {
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #f7c925;
 			border-bottom-color: transparent;
 		}
 
@@ -1748,18 +1748,18 @@ article.post.container > ul > li > ul > li {
 		padding-top: 2em;
 		padding-bottom: 1em;
 		width: 80%;
-		background: rgba(255, 255, 255, 0.6);
+		background: rgba(255, 255, 255, 0.7);
 		text-align: center;
 	}
 
 	article.post.container > p {
 		color: black;
-		font-weight: 500;
+		font-weight: 600;
 	}
 
 	article.post.container > p > strong {
 		color: black;
-		font-weight: 700;
+		font-weight: 1000;
 		text-decoration: underline black;
 	}
 
@@ -1978,7 +1978,7 @@ p img {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #f7c925;
 				}
 
 	ol.default {
@@ -2140,7 +2140,7 @@ div.transparent {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: rgba(192, 78, 0, 100);
+			background: rgb(247, 201, 37, 100);
 		}
 
 		input[type="button"].alt,
@@ -2436,7 +2436,7 @@ div.transparent {
 			}
 
 			.dropotron li:hover {
-				color: #ef8376;
+				color: #f7c925;
 			}
 
 			.dropotron li a, .dropotron li span {
