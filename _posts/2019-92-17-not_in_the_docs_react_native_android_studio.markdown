@@ -1,8 +1,9 @@
 ---
 layout: post
-title:      "React Native and Android Studio: What's Not in the Docs"
-date:       2017-05-04 15:25:58 -0400
-permalink:  react-native-android-studio-not-in-the-docs
+title:      "Not in the Docs:"
+subtitle:   "React Native & Android Studio"
+date:       2019-02-17 15:25:58 -0400
+permalink:  not-in-the-docs-react-native-android-studio
 ---
 
 ![Final Campaign Picture](https://i.imgur.com/Y2qBfnA.jpg)
@@ -33,7 +34,7 @@ Now to run `react-native run-android`.
 
 **BUILD FAIL**
 
-(INSERT IMAGE OF FAILURE)
+![Bart Simpson throwing You Tried cake away](https://media.giphy.com/media/26ybwvTX4DTkwst6U/giphy.gif)
 
  Gradle (our little automated builder) couldn't build our app. And the emulator remained stubbornly on the homescreen. 
 
@@ -45,17 +46,17 @@ Now to run `react-native run-android`.
 
  Here's what I did for the first error:
 
- 1. It has to do with Gradle's wrapper. So go into android > gradle > gradle-wrapper.properties and change your distribution version to 4.10.1. So the last line in this file should read: `distributionUrl=https\://services.gradle.org/distributions/gradle-4.10.1-all.zip`
+ It has to do with Gradle's wrapper. So go into android > gradle > gradle-wrapper.properties and change your distribution version to 4.10.1. So the last line in this file should read: `distributionUrl=https\://services.gradle.org/distributions/gradle-4.10.1-all.zip`
 
- 2. Configure your app. When you select "Run" in the top menu of Android Studio, you should get a pop up that has the option to Configure your app. 
+ Configure your app. When you select "Run" in the top menu of Android Studio, you should get a pop up that has the option to Configure your app. 
 
- <insert screen shot>
+ ![Configure Run Option](https://i.imgur.com/1k072WO.png)
  
- Click that. A new window will open that looks like this, but blank. In the Name field at the top and Gradle Project field underneath, type the location of build.gradle file. 
+ Click that. A new window will open that looks like this, but blank. In the Name field at the top and Gradle Project field underneath, type the location of `build.gradle` file. 
 
  It should look like this:
 
-<Insert screen shot>
+![Configure Options](https://i.imgur.com/aGFjKQh.png)
 
 The click `Apply`. 
 
@@ -65,7 +66,7 @@ Now for the second error . . .
 
 **Could not locate the Android SDK.**
 
- Well, turns out you have to tell your app where it is. If you followed the instructions from Facebook up until this point, you should have the SDK installed. 
+Well, turns out you have to tell your app where it is. If you followed the instructions from Facebook up until this point, you should have the SDK installed. 
 
 In the root of your `android` directory of your React Native project, create a file called `local.properties`. Add a line specifying where the SDK lives. Mine looks like this: `sdk.dir=/Users/katielarson/Library/Android/sdk`
 
@@ -73,41 +74,45 @@ Yours probably will too. And that's it. When you run `react-native run-android` 
 
 **Caveats & Tips**
 
-<IMAGE FOR CAVEATS>
+![Professor McGonagall](https://i.imgur.com/kncyXgz.gif)
 
 Caveats first: Of course if you have other bugs or issues, I would say a) check your work for both these instructions and for Facebooks to make sure you've installed everything correctly; then b) start Googling. You're never alone with these types of things.
 
 Tips: As I started developing, I noticed some issues that were more user error than anything. But to save you time, here's what I learned.
 
-1. **ANDROID STUDIO IS DESIGNED FOR JAVA/KOTLIN.** Since Android's preferred native language is Java and Kotlin (a Java based lang too), the editor for the Studio is essentially IntelliJ. It's not built for JavaScript, which is what React Native is based in  (or JSX specifically). I've found that when dealing with Java or Kotlin, it's best to keep those editors separate. I use VS Code for pretty much everything except for Java, where I switch over to IntelliJ.
+**ANDROID STUDIO IS DESIGNED FOR JAVA/KOTLIN.** Since Android's preferred native language is Java and Kotlin (a Java based lang too), the editor for the Studio is essentially IntelliJ. It's not built for JavaScript, which is what React Native is based in  (or JSX specifically). I've found that when dealing with Java or Kotlin, it's best to keep those editors separate. I use VS Code for pretty much everything except for Java, where I switch over to IntelliJ.
 
 So why have Android Studio in the first place? Answer: the emulator.
 
 I use it to get the emulator up and running first, then close Android Studio, and open VSCode and my React Native project. I run the emulator through VSCode's terminal. 
 
-**2. To run the emulator in Android Studio,** click on this icon
+**To run the emulator in Android Studio,** click on this icon
 
-<IMAGE OF DROID>
+![Android Studio Emulator Icon](https://i.imgur.com/HzzzV9e.png)
 
 found here, in the top right corner:
 
-<IMAGE OF MENU>
+![Android Studio Top Right Menu](https://i.imgur.com/dOpyjSQ.png)
+
+You should get this window:
+
+![List of emulators](https://i.imgur.com/0Kzi8dU.png)
 
 Then press the "Play" triangle button to run the emulator you created (mine is the Pixel 2; the Nexus was the default one).
 
 You should see an Android phone pop up somewhere on your screen. 
 
-**3. You must launch the emulator before running `react-native run-android`.** The latter part of this command looks for an already running emulator, so get it running. A second terminal running Metrobundler will also pop up in the background as a separate window. I pretty much ignore it until I shut everything off. Then I Ctrl + c it.
+**You must launch the emulator before running `react-native run-android`.** The latter part of this command looks for an already running emulator, so get it running. A second terminal running Metrobundler will also pop up in the background as a separate window. I pretty much ignore it until I shut everything off. Then I Ctrl + c it.
 
-**4. Also, to enable hot reloading, the developer menu of the emulator can be located by pressing Cmd + m and selecting "Enable Hot Reloading".** (Facebook says this can be done, but doesn't give great instructions on how to do so).
+**Also, to enable hot reloading, the developer menu of the emulator can be located by pressing Cmd + m and selecting "Enable Hot Reloading".** (Facebook says this can be done, but doesn't give great instructions on how to do so).
 
-<INSERT DEV MENU>
+![emulator Dev menu](https://i.imgur.com/LFRk9iZ.png)
 
 And that's all I got! Hope that fills in the blanks for those starting out. One of the hardest things about not having a CS degree and only knowing code is getting started with architecture, servers, webpack, environments, etc. It's like I don't do it frequently enough for it to be a muscle memory, but I don't have a good enough theoretical grounding in it to intuit it's structure. 
 
 Nothing to do but to keep on learning!
 
-<IMAGE FOR LEARNING>
+![Information Entering Brain GIF](https://i.imgur.com/rIPYt7n.gif)
 
 
 
