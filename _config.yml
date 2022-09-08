@@ -1,15 +1,15 @@
 # Site settings
-title: Coding Art
+title: Building Safety & Joy
 header-img: img/home-bg.png
-email: katmae83@gmail.com
+email: jobs.katlars@proton.me
 copyright_name: KatieLars
 description: > # this means to ignore newlines until "baseurl:"
-  An Art Historian Turns to Code
+  Art, Wine, Code, and InfoSec
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username: @sleepycecy
 github_username:  KatieLars
 learn_profile: KatieLars
-email_username: katmae83@gmail.com
+email_username: jobs.katlars@proton.me
 
 # Build settings
 markdown: kramdown
