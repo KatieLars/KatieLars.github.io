@@ -6,7 +6,7 @@ copyright_name: KatieLars
 description: > # this means to ignore newlines until "baseurl:"
   Art, Wine, Code, and InfoSec
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: @sleepycecy
+twitter_username: sleepycecy
 github_username:  KatieLars
 learn_profile: KatieLars
 email_username: jobs.katlars@proton.me
